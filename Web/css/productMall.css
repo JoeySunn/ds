@@ -1,0 +1,120 @@
+
+/***************************菜单栏*****************************/
+
+.menu_bar{
+	width: 100%;
+	/*min-height: 30%;*/
+	border-bottom: 2px solid #f1f1f1;
+	padding: 2.17rem 1rem;
+	text-align: center;
+}
+.menu_bar .btn{
+	margin: 0.2rem 1.5%;
+}
+
+.shopping_menu{
+	width: 100%;
+	overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+	/*height: 70%;*/
+	/*overflow-y: scroll;*/
+}
+
+.shopping_conter{
+	width: 100%;
+	border-bottom: 2px solid #f1f1f1;
+	padding: 3.17rem 0 3.17rem 5%;
+	display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */  
+	display: -moz-box; /* Firefox 17- */  
+	display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */  
+	display: -moz-flex; /* Firefox 18+ */  
+	display: -ms-flexbox; /* IE 10 */  
+	display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */ 
+	overflow: hidden;
+}
+.shopping_left_conter{
+	width: 42%;
+}
+.shopping_left_conter img{
+	width: 100%;
+}
+.shopping_right_conter{
+	margin-left: 1%;
+	width: 55%;
+	/*height: 7.95rem;*/
+	font-size: 12px;
+	color: #000000;
+}
+.shopping_right_conter_title{
+	font-size: 14px;
+	color: #000000;
+	/*width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;*/
+    white-space: nowrap;
+    margin-bottom: 5%;
+}
+.shopping_right_conter p{
+	margin-top: 5%;
+	width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.shopping_right_conter_pire{
+	font-size: 16px;
+	color: #FF4343;
+	margin-top: 5%;
+}
+
+/* dropload */
+.dropload-up,.dropload-down{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transform:translate3d(0,0,0);
+    transform:translate3d(0,0,0);
+}
+.dropload-refresh,.dropload-update,.dropload-load{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    -webkit-transform:translate(-50%,0);
+    transform:translate(-50%,0);
+}
+.dropload-load .loading{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    margin: 6px;
+    border: 2px solid #666;
+    border-bottom-color: transparent;
+    vertical-align: middle;
+    -webkit-animation-name: charector-1;/* 动画名称 */
+	-webkit-animation-iteration-count: infinite;/* 动画无限播放 */
+	-webkit-animation-timing-function: step-start;/* 马上跳到动画每一结束桢的状态 */
+	-webkit-animation-duration: 950ms;/* 动画运行的时间 */
+}
+@-webkit-keyframes charector-1{
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+     75% {
+        transform: rotate(270deg);
+    }
+     100% {
+        transform: rotate(360deg);
+    }
+}
+/***************************end********************************/

@@ -1,0 +1,650 @@
+#register{
+	width: 100%;
+	min-height: 100%;
+	background-color: #f6f6f6;
+	overflow: hidden;
+}
+.register_header{
+	width: 100%;
+	height: 5rem;
+	background-color: #000;
+}
+.register_header_nav{
+	height: 5rem;
+	/*background-color: #f00;*/
+}
+
+.Merchant_platform_left{
+	height: 5rem;
+}
+.Merchant_platform_left .logo {
+    float: left;
+    height: 100%;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.Merchant_platform_left .logo img {
+    width: 9.33rem;
+    /*height: 3rem;*/
+    margin-top: 1rem;
+    float: left;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.Merchant_platform_left .logo span {
+    float: left;
+}
+.Merchant_platform_left b {
+    float: left;
+    display: inline-block;
+    width: 1px;
+    height: 1.67rem;
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgba(255,255,255,.3);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);
+}
+.Merchant_platform_left .Catalog {
+    float: left;
+    color: #fff;
+    height: 100%;
+    line-height: 5rem;
+}
+.Merchant_platform_left .Catalog a {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.Merchant_platform_left .Catalog .active {
+    color: rgba(255,255,255,1);
+}
+.Merchant_platform_right {
+    height: 5rem;
+}
+.Merchant_platform_right .SignIn .messageNum1{
+	float: left;
+    margin-right: 2rem;
+}
+.Merchant_platform_right .SignIn .messageNum1 img{
+	width: 24px;
+    height: 30px;
+    margin-top: .33rem;
+}
+.Merchant_platform_right .SignIn .messageNum1 i{
+	width: 26px;
+    height: 18px;
+    line-height: 16px;
+    background: #FF196F;
+    border-radius: 100px;
+    font-size: 10px;
+    position: absolute;
+    right: -1.4rem;
+    top: 0;
+    text-align: center;
+    color: #fff;
+}
+.Merchant_platform_right .SignIn .messageNum1 strong{
+	width: 0;
+    display: block;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    border-bottom: 15px solid #fff;
+    border-right: 15px solid rgba(0,0,0,0);
+    border-top: 15px solid rgba(0,0,0,0);
+}
+.Merchant_platform_right .SignIn .messageNum_conter{
+	position: absolute;
+    left: 0;
+    top: 4.1rem;
+    background: #fff;
+    width: 82.5%;
+    height: 200px;
+     z-index: 1; 
+    padding-left: 12%;
+}
+.Merchant_platform_right .SignIn .messageNum_conter p{
+	font-size: 12px;
+    color: #000000;
+    line-height: 4rem;
+}
+.Merchant_platform_right .SignIn .messageNum_conter .messageNum_conter_title{
+	overflow: hidden;
+    height: 120px;
+    overflow-y: scroll;
+}
+.Merchant_platform_right .SignIn .messageNum_conter .messageNum_conter_title p{
+	word-break: break-all;
+	line-height: 2rem;
+}
+.Merchant_platform_right .SignIn .messageNum_conter .messageNum_conter_footer{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.67rem;
+    background: #F4F6FB;
+    text-align: center;
+    line-height: 2.67rem;
+    font-size: 12px;
+    color: #000000;
+}
+.Merchant_platform_right .logo {
+    float: left;
+    height: 100%;
+    line-height: 5rem;
+    color: rgba(255,255,255,.7);
+    font-size: 1rem;
+}
+.Merchant_platform_right .logo span {
+    float: left;
+}
+.Merchant_platform_right b {
+    float: left;
+    display: inline-block;
+    width: 1px;
+    height: 1.67rem;
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgba(255,255,255,.3)
+ filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);
+}
+.Merchant_platform_right .Catalog {
+    float: left;
+    color: #fff;
+    height: 100%;
+    line-height: 5rem;
+}
+.Merchant_platform_right .Catalog a {
+    text-decoration: none;
+    color: rgba(255,255,255,.7);
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+.register_conter{
+	height: 100%;
+	margin-top: 1.33rem;
+	background-color: #fff;
+}
+.register_conter_step{
+	width: 100%;
+	height: 6rem;
+	border-bottom:1px solid #E2E2E2;
+}
+.register_conter_step ul{
+	 display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */  
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */  
+    display: -ms-flexbox;      /* TWEENER - IE 10 */  
+    display: -webkit-flex;     /* NEW - Chrome */  
+    display: flex; 
+}
+.register_conter_step li{
+	height: 100%;
+    line-height: 6rem;
+    font-size: 100%;
+    -webkit-flex: 1;
+    -moz-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    position: relative;
+    text-align: center;
+}
+.register_conter_step li span{
+	display: block;
+	position: absolute;
+	width: 1rem;
+	height: 1rem;
+	left: 50%;
+	margin-left: -0.5rem;
+	bottom: -1rem;
+	background-color: #D9D6FF;
+	border-radius: 100px;
+	border: 6px solid #F3F3FF;
+}
+.register_conter_step li .active{
+	background-color: #463BB1;
+}
+.information{
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 5rem;
+	min-height: 974px;
+}
+.register_conter .essential_information{
+	width: 96%;
+	padding-top:13.1%; 
+	padding-left:3.7%;
+	
+}
+.companyBank_information1{
+	
+	text-align: center;
+}
+.companyBank_information2{
+	
+	text-align: center;
+}
+.companyBank_information3{
+	
+	text-align: center;
+}
+.register_conter .essential_information h2{
+	font-size: 1.67rem;
+	color: #000000;
+}
+.register_conter .essential_information .lab{
+	display: block;
+	width: 100%;
+	height: 3.33rem;
+	margin-top: 4rem;
+}
+.register_conter .essential_information .lab span{
+	display: inline-block;
+	width: 6rem;
+	height: 100%;
+	line-height: 3.33rem;
+	color:#666;
+	font-size: 1.33rem;
+	margin-right: 2rem;
+	float: left;
+	text-align: left;
+}
+.company_information .lab span{
+	width: 10rem !important;
+}
+.register_conter .essential_information .lab input{
+	width: 50%;
+	height: 100%;
+	border: 1px solid #B8B8BB;
+	float: left;
+}
+.register_conter .essential_information .lab b{
+	margin-left: 1rem;
+    height: 100%;
+    line-height: 3.33rem;
+    font-size: 16px;
+    color: #FF4343;
+    float: left;
+    letter-spacing: 0;
+    display: none;
+}
+.register_conter .essential_information .lab b img{
+	width: 1.67rem;
+    margin-top: .8rem;
+    float: left;
+    margin-right: 1rem;
+}
+.register_conter .essential_information .identity_type{
+	/*display: block;*/
+	width: 100%;
+	/*height: 3.33rem;*/
+	margin-top: 4rem;
+}
+.register_conter .essential_information .identity_type span{
+	display: inline-block;
+	width: 6rem;
+	height: 100%;
+	/*line-height: 3.33rem;*/
+	color:#666;
+	font-size: 1.33rem;
+	margin-right: 4rem;
+}
+.register_conter .essential_information .identity_type img{
+	width: 1.5rem;
+	height: 1.5rem;
+	float: left;
+	margin-right: .5rem;
+	cursor: pointer;
+}
+.register_conter .essential_information .identity_type b{
+	font-size: 1.33rem;
+	line-height: 1.33rem;
+	float: left;
+}
+.register_conter .essential_information .identity_type label{
+	display: inline-block;
+	/*width: 65%;*/
+	height: 100%;
+	margin-right: 6rem;
+	/*border: 1px solid #B8B8BB;*/
+	cursor: pointer;
+}
+.photo_information{
+	width: 100%;
+	margin-top: 7rem;
+	padding-bottom: 11rem;
+}
+.photo_information .Certificates{
+	width: 96.3%;
+	height: 15rem;
+	padding-left: 3.7rem;
+	margin-bottom: 4.33rem;
+}
+.photo_information .Certificates .pic_identity_noSample{
+	width: 11rem;
+    height: 13rem;
+	position: relative;
+	box-shadow: 0 2px 4px 0 rgba(45,47,59,0.20);
+	border-radius: 2px;
+	margin-right: 3.5rem;
+	background-color: #F0F0F0;
+	border-radius: 2px 2px 0 0;
+}
+.photo_information .Certificates .pic_identity_noSample .pic{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*display: none;*/
+}
+.photo_information .Certificates .pic_identity_noSample .addto{
+	width: 24%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -12%;
+	margin-top: -30%;
+}
+.photo_information .Certificates .pic_identity_noSample span{
+	width: 100%;
+	height: 26.7%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	line-height: 4rem;
+	text-align: center;
+	color: #000;
+	background-color: #fff;
+}
+.pic_identity_Sample{
+	width: 11rem;
+    height: 13rem;
+	position: relative;
+	box-shadow: 0 2px 4px 0 rgba(45,47,59,0.20);
+	border-radius: 2px;
+	margin-right: 3.5rem;
+	background-color: #F0F0F0;
+	border-radius: 2px 2px 0 0;
+}
+.photo_information .Certificates .pic_identity_Sample .pic{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*display: none;*/
+}
+.photo_information .Certificates .pic_identity_Template .pic{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	/*display: none;*/
+}
+
+.pic_identity_Template{
+	width: 11rem;
+    height: 13rem;
+	position: relative;
+	box-shadow: 0 2px 4px 0 rgba(45,47,59,0.20);
+	border-radius: 2px;
+	cursor: pointer;
+
+}
+.photo_information .Certificates .mark{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	line-height: 15rem;
+	text-align: center;
+	opacity: 0.8;
+	background: #2D2F3B;
+	color: #fff;
+}
+.photo_information .Certificates .pic_identity_Template .Template{
+	width: 55%;
+    height: 50%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    text-align: center;
+    color: #fff;
+}
+.photo_information .Certificates .pic_identity_Template .Template img{
+	position: absolute;
+	left: 50%;
+	margin-left: -1.335rem;
+	width: 2.67rem;
+	height: 2.67rem;
+}
+.photo_information .Certificates .pic_identity_Template .Template span{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 1.17rem;
+	line-height: 1.17rem;
+}
+.Next_step{
+	width: 100%；
+	height:4rem;
+	margin-top: 4rem;
+	margin-left: 3.7rem;
+}
+.Next_step a{
+	display: inline-block;
+	width: 14rem;
+	height: 4rem;
+	border: 1px solid #463BB1;
+	border-radius: 2px;
+	color: #463BB1;
+	text-decoration: none;
+	line-height: 4rem;
+	text-align: center;
+	font-size: 1.17rem;
+	margin-right: 5.33rem;
+}
+.Next_step .active{
+	background-color: #463BB1;
+	color: #fff;
+}
+.Enterprise .number{
+	display: inline-block;
+    width: 50%;
+    height: 100%;
+    border: 1px solid #B8B8BB;
+    float: left;
+    position: relative;
+}
+.Enterprise .number a{
+	display: inline-block;
+    width: 39%;
+    height: 2.33rem;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.33rem;
+    /* font-size: 1.1rem; */
+    color: #000;
+    padding-right: 1.67rem;
+    border-right: 1px solid #ccc;
+    margin-top: .5rem;
+    float: left;
+    position: relative;
+}
+.Enterprise .number a b{
+	margin-left: 0 !important;
+    float: left !important;
+    height: 100% !important;
+    line-height: 3.33rem !important;
+    font-size: 16px !important;
+    color: #FF4343 !important;
+    letter-spacing: 0 !important;
+    display: inline-block !important;
+    position: absolute !important;
+    right: 0 !important;
+    padding: .3rem 0 !important;
+}
+.Enterprise .number a b img{
+	width: 1.67rem !important;
+	float: left !important;
+	margin: 0 !important;
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+}
+.Enterprise .number ul{
+	width: 60%;
+    /* height: 100%; */
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    line-height: 3.33rem;
+    /* background-color: #fff; */
+    background: #FAFAFA;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.12), 0 8px 8px 0 rgba(0,0,0,0.24);
+    border-radius: 2px;
+    /* padding: 1rem; */
+    font-size: 1.1rem;
+    display: none;
+}
+.Enterprise .number ul li{
+	border-bottom: 1px solid #ccc;
+	padding-left: 1rem;
+	cursor: pointer;
+}
+.Enterprise .number .em{
+	float: right !important;
+    width: 53% !important;
+    height: 100% !important;
+    border: 0 !important;
+}
+.company_information .numberPrompt{
+	
+    color: #f00 !important;
+        margin-left: .5rem;
+    margin-right: 0 !important;
+}
+.company_information .numberPrompt img{
+	width: 1.5rem;
+    margin-top: 1rem;
+    margin-right: .5rem;
+    float: left;
+}
+.companyBank_information .essential_information{
+	padding-bottom: 10rem !important;
+	position: relative;
+	/*text-align: center;*/
+}
+.companyBank_information .essential_information span{
+	    width: 10rem !important;
+}
+.companyBank_information p{
+	text-align: center;
+	font-size: 2rem;
+	margin-top: 10rem;
+}
+.companyBank_information .Next_step{
+    width: 94%;
+    height: 4rem;
+    /*text-align: center;*/
+}
+.companyBank_information span{
+	font-size: 1.5rem;
+}
+/*.companyBank_information img{
+	width: 7rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.5rem;
+}*/
+#Sample_drawing{
+	width: 100%;
+	height: 100%;
+	min-height: 975px;
+	padding-top: 15rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0,0,0,.7);
+
+}
+.Sample_drawing_conter{
+	text-align: center;
+	height: 100%;
+}
+#Sample_drawing .Sample_drawing_conter a{
+	position: absolute;
+    /* right: 10%; */
+    top: 15rem;
+    color: #fff;
+    /* float: right; */
+    margin-right: 10rem;
+    font-size: 3rem;
+    display: inline-block;
+    /* width: 50px; */
+    /* height: 50px; */
+    text-decoration: none;
+    font-weight: 100;
+    margin-left: 2rem;
+}
+.companyBank_information1 .essential_information p{
+	font-size: 20px;
+}
+.companyBank_information2 .essential_information img{
+	width: 80px;
+	margin: 5rem 0;
+}
+.companyBank_information3 .essential_information img{
+	width: 80px;
+	margin: 5rem auto;
+}
+
+.companyBank_information2 .essential_information  p{
+	font-size: 20px;
+}
+.companyBank_information3 .essential_information  p{
+	font-size: 20px;
+}
+
+.Merchant_platform_right .SignIn {
+    position: relative;
+    margin-top: .8rem;
+}
+.Merchant_platform_right .SignIn a {
+    color: #fff;
+}
+
+.Merchant_platform_right .SignIn a {
+    display: inline-block;
+    min-width: 8.67rem; 
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.17rem;
+    /*color: #000;*/
+}
+.Merchant_platform_right .SignIn .SignIn_a {
+    color: #fff !important;
+    background: #FF196F;
+    border-radius: 61px;
+}
+.Merchant_platform_right .SignIn em {
+    display: inline-block;
+    width: 1px;
+    height: 1.33rem;
+    background: rgba(255,255,255,.3);
+    margin: 0 2rem;
+}
+.Merchant_platform_right .SignIn .messageNum {
+    position: relative;
+}

@@ -1,0 +1,152 @@
+                                                                  
+
+
+
+#o2o .setting_a {   /*O2O背景图上 去定制按钮样式*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -6.4rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#automobileInsurance .setting_a {       /*车险背景图上 去定制按钮样式*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -6.4rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#motion .setting_a {        /*运动背景图上 去定制按钮样式*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -6.4rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#traffic .setting_a {       /*交通背景图上 去定制按钮样式*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -6.4rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+.ProductModule .Product_conter{
+	/*text-align: center;*/
+}
+.ProductModule .Product_conter p{       /*各场景页面中当前场景介绍板块*/
+	display: inline-block;
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 3% auto;
+    line-height: 2.75rem;
+    position: relative;
+    padding-left: 2rem;
+}
+.ProductModule .Product_conter p b{
+	display: inline-block;
+    width: 1.08rem;
+    height: 1.5rem;
+    background: rgba(74,126,228,1);
+    float: left;
+    margin-top: 0.6rem;
+    margin-right: 1.33rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.ProductModule .Product_conter p span{
+	text-align: left;
+    float: left;
+    /* position: absolute; */
+    /* left: 2.41rem; */
+    /* top: 0; */
+}
+.Customized{
+	background: #4A7EE4;
+}
+.o2o_Customized{         /*O2O场景中示例产品展示板块的背景图*/
+	background: url(../../images/banner7_1.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.traffic_Customized{    /*交通场景中示例产品展示板块的背景图*/
+	background: url(../../images/banner11_1.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.Customized .title{     /*场景分页面中适用场景的文字说明*/
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	margin-top: 2.67rem;
+	font-size: 1.3rem;
+    opacity: 0.8;
+}
+.Customized .Customized_pictxt{         /*场景分页面中选中场景示例显示*/
+	width: 31.75rem;
+}
+.increment{              /*场景分页面中选中增值福利模块*/
+	width: 100%;
+	background: #FFFFFF;
+}
+.increment p{
+	width: 100%;
+	text-align: center;
+	font-size: 2.26rem;
+	color: #000;
+	margin: 8rem 0;
+}
+.increment .increment_conter{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 14.17rem;
+}
+.increment_conter_conter{
+	width: 17.67rem;
+	display: inline-block;
+	
+	margin: 0 5%;
+}
+.increment_conter_conter img{
+	width: 17.67rem;
+	height: 17.67rem;
+	border-radius: 100px;
+}
+.increment_conter_conter span{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	color: #000;
+	margin-top: 4rem;
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>袋鼠保服</title>
+	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" media="screen">
+	<link rel="stylesheet" type="text/css" href="./css/myCSS/main.css?v=1.0.6">
+    <link rel="stylesheet" type="text/css" href="./css/myCSS/unlock.css">
+    <script src="./js/externalJS/Introduce_jquery-1.11.0.min.js?" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="./js/externalJS/cookie.js?" charset="utf-8"></script>
+	<script src="./js/myJS/config.js?" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/myJS/main.js?" type="text/javascript" charset="utf-8"></script>
+	<script src="./js/myJS/unlock.js?" type="text/javascript" charset="utf-8"></script>
+    <script src="./js/myJS/load.js?v=1.0.6?" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+<div class="loadings" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;background: #fff;z-index: 99999;">
+	<img src="./images/loding.png" alt="" style="position:absolute;top:50%;left:50%;width:50px;height:50px;margin-left: -25px;margin-top: -25px;display: none;"/>
+	<p style="position:absolute;top:50%;left:0;width:100%;height:50px;line-height:50px;text-align:center;margin-top: -25px;display: none;">内容加载中...</p>
+</div>
+<script type="text/javascript" charset="utf-8">
+	if(!supportCss3('transition')){
+		$('.loadings p').show()
+		$('.loadings img').hide()
+	}else{
+		$('.loadings p').hide()
+		$('.loadings img').show()
+	}
+</script>
+	<div id="Merchant_platform_conter">
+		<div class="Merchant_platform">
+			<div class="Merchant_platform_left l">
+				<div class="logo">
+					<img src="./images/logo.png" alt="">
+				</div>
+				<b></b>
+				<div class="Catalog">
+					<a class="Catalog_Modular active" href="javascript:;" class="active">文档中心</a>
+				</div>
+			</div>
+			<div class="Merchant_platform_right r">
+				<div class="Catalog l">
+					<a href="javascript:;">商户平台</a>
+				</div>
+				<div class="SignIn SignIn1 l">
+					<a class="SignIn_register" href="javascript:;" sid="1">登录</a>		
+					<a class="SignIn_register SignIn_a" href="javascript:;" sid="2">注册</a>		
+				</div>
+				<div class="SignIn SignIn2 l" style="display: none;">
+					<div class="messageNum messageNum1" href="javascript:;" style="display: none;">
+						<img src="./images/messageWhite.png" alt=""/>
+						<i style="display: none;"></i>
+						<strong  style="display: none;"></strong>
+					</div>
+					<a href="javascript:;" style="cursor: text;"></a>
+					<em></em>
+					<a class="messageNum messageNum2" href="javascript:;">
+						退出
+					</a>
+					<div class="messageNum_conter" style="display: none;">
+						<p style="line-height: 4rem;">您的企业认证通过</p>
+						<div class="messageNum_conter_title">
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+						</div>
+						<div class="messageNum_conter_footer">
+							查看全部
+						</div>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="authentication" style="display: block;">
+			<div class="platform">
+				<div class="platform_menu">
+					<ul class="platform_menu_group">
+						<li class="menus">
+							<em class="Icon"></em>
+							<span>通用文档</span>
+							<b><img src="./images/Turn.png" alt="" class="actives"></b>
+							<ul class="group" stop="1" style="display: block;">
+								<li class="menu_conter active">关于我们</li>
+								<li class="menu_conter">新手入门</li>
+								<li class="menu_conter">常见问题</li>
+								<li class="menu_conter">隐私问题</li>
+								<li class="menu_conter">商户协议</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="platform_content">
+
+
+
+					<!-- 关于我们 -->
+					<div class="platform_content_record OrderDetails">
+						<div class="rderDetails_conter">
+							<h2>关于我们<p>更新时间：2017-11-11</p></h2>
+							<div  class="EssentialInformation">
+								<div class="EssentialInformation_left l">
+									<span style="margin-top: 0;">关于袋鼠保服</span>
+									<b>袋鼠保服是智驾科技开发并运营的互联网保险开放平台，是互联网保险基础设施服务提供商，连接保险公司，经代公司，互联网APP。平台与各大保险公司战略合作，提供海量保险产品资源，为互联网APP， 提供高效快捷的接入以及场景化保险产品定制设计。</b>
+									<b>袋鼠保服提供技术连接和业务连接，技术连接保险公司核心系统，开放产品接口能力，使得第三方合作伙伴能够快速实现业务接入；业务连接提供保险公司产品管理平台，经代公司的业务管理平台，互联网APP的商户管理平台，平台之间系统无缝集成，保险公司通过产品管理平台提供海量保险产品资源，经代公司的业务管理平台为互联网APP提供高效快捷的业务接入以及场景化保险产品定制设计，互联网APP商户管理平台提供全方位的保险业务管理平台。</b>
+									<b>立足互联网保险，我们立志于降低保险销售和服务的门槛，让保险服务于各个行业与场景。若您是拥有一定流量的商户或企业主，请注册我们网站，选择适合您的推广方式去推广产品，您将获得不菲的推广佣金。</b>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+
+					<!-- 新手入门 -->
+					<div class="platform_content_record OrderDetails" style="display: none;">
+						<div class="rderDetails_conter">
+							<h2>新手入门<p>更新时间：2017-11-11</p></h2>
+							<div  class="EssentialInformation">
+								<div class="EssentialInformation_left l">
+									<span style="margin-top: 0;">袋鼠保服商户功能概述</span>
+									<b>袋鼠保服为商户提供海量、优质的保险产品，并帮助商户快速接入自身平台。商户可以通过不同的推广方式进行保险产品的推广，用户投保后，商户即可获得推广费，并由袋鼠保服统一结算，实现流量的快速变现。</b>
+									<b><img src="./images/zcsh_lc.jpg" alt=""></b>
+									<span style="margin-top: 0;">商户推广流程详解</span>
+									<span style="margin-top: 0;">1.	注册成为商户，并完成实名认证</span>
+									<b>注册完成后，商户即可选择商品；完成实名认证后，可获取推广链接</b>
+									<b>认证流程：</b>
+									<b><strong>填写企业信息</strong>-&gt;<strong>填写银行信息</strong>-&gt;<strong>提交至平台审核</strong>-&gt;<strong>审核通过，完成认证</strong></b>
+
+									<span>2.	线下洽谈，签署协议</span>
+									<b>认证通过后，平台工作人员会与商户联系，洽谈合作事宜，达成合作意向后签署合作协议（合作协议可参考“通用文档”页面下的“商户协议”）</b>
+									<span>3.	产品超市推广合作</span>
+									<b>（1）点击进入“产品商城”页面，浏览现有保险产品，也可通过选择产品类别快速找到所需产品。<br/></b>
+									<b>（2）选择心仪产品，点击进入详情页面，即可浏览该款产品的保费、保障内容及推广费用等详细信息。<br/></b>
+									<b>（3）在产品右侧点击“我要推广”按钮，商户平台生成产品推广记录，商户可前往“商户平台”，从该条记录中获取推广链接，接入自身平台即可开始推广。<br/></b>
+									<b>（4）在“商户平台”可查看推广产品的用户投保订单数、保费成交额及由此产生的推广费等详细信息。<br/></b>
+
+
+									<span>4.	场景定制</span>
+									<b>（1）点击进入“行业定制”页面。<br/></b>
+									<b>（2）点击“去定制”即成功提交定制申请，客服人员会在1-3个工作日内与您取得联系，定制保险产品；商户也可直接拨打热线400-068-8511定制产品。<br/></b>
+									<b>（3）定制成功后，商户可前往“商户中心”获取推广链接或二维码，接入自身平台即可开始推广。<br/></b>
+
+									<span>5.	推广费用结算</span>
+									<b>用户投保后，商户即可获得相应金额的推广费，商户可前往“商户平台”查看推广费的结算账单及账单明细。推广费默认结算周期为月结，平台统计出单量及实收保费金额，收付款双方核对无误后，由推广费付款方将推广费以银行转账的形式结算给商户。<br/></b>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+					
+
+					<!-- 常见问题 -->
+					<div class="platform_content_record OrderDetails" style="display: none;">
+						<div class="rderDetails_conter">
+							<h2>常见问题<p>更新时间：2017-11-11</p></h2>
+							<div  class="EssentialInformation">
+								<div class="EssentialInformation_left l">
+									<span style="margin-top: 0;">1.	什么样的商户可以申请推广合作？</span>
+									<b>
+APP应用、微信公众号、PC网站等线上移动端；旅行社、汽车服务商、餐馆等线下门店，有相关保险产品购买场景，意愿进行保险产品推广并有一定流量的的公司主体都可以申请。</b>
+								<span>2.	商户如何申请推广产品？</span>
+								<b>申请商户首先需要先进行企业认证，企业认证审核通过之后，再进行保险产品申请合作。</b>
+								<span>3.	推广的方式是什么？需要技术开发吗？</span>
+								<b>商户在产品详情页可获取该产品的推广链接及二维码，将其接入自身平台即可推广，不需要有技术开发能力。</b>
+								<span>4.	如何查询获得的推广费用？</span>
+								<b>合作开始后，商户可进入“商户中心”查看各款产品推广流量、每单推广费用及累计推广费用等详细数据。</b>
+								<span>5.	推广费用多长时间结算一次？</span>
+								<b>推广费用采取月结的形式，具体规则参见《商户协议》中的推广费结算部分。</b>
+								<span>6.	产品商城里没有看到合适的保险产品怎么办？</span>
+								<b>若在产品商城中没有找到适合的保险产品，可以选择“马上定制”或者联系客服，我们会根据具体行业场景为您定制专属保险，同样只需要一个链接就能轻松实现对接。</b>
+
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+					
+
+
+
+					
+
+
+
+
+
+					<!-- 隐私问题 -->
+					<div class="platform_content_record OrderDetails" style="display: none;">
+						<div class="rderDetails_conter">
+							<h2>隐私问题<p>更新时间：2017-11-11</p></h2>
+							<div  class="EssentialInformation">
+								<div class="EssentialInformation_left l">
+									<span style="margin-top: 0;">隐私声明</span>
+									<b>
+保护用户隐私是智驾科技的一项基本政策，我们尊重并保护用户隐私，我们将按照本隐私声明收集、使用和共享您的个人信息。
+本隐私声明作为《袋鼠保服用户服务协议》的有效组成部分，您在注册时已经点击同意本隐私声明的约定。如果您不同意本隐私声明的任何内容，您应立即停止使用平台服务。当您使用我们提供的任一服务时，即表示您已同意我们按照本隐私声明来合法使用和保护您的个人信息。如对本隐私声明内容有任何疑问，您可通过客服热线400-068-8511与我们联系。
+</b>
+								<span>一、适用范围</span>
+								<b>本隐私政策适用于平台提供的所有服务。
+需要特别说明的是，本隐私政策不适用于其他第三方向您提供的服务，平台可能含有到其他网站的链接，我们对那些链接网站的信息保护措施不负责任。
+
+</b>
+						<span>二、我们收集的信息</span>
+								<b>为了向您提供更好、更优、更个性化的服务，我们将根据您使用的服务收集您如下与服务相关的必要信息：</b>
+								<b>1.您向我们提供的信息</b>
+								<b>您在网络上注册成为智驾科技的网站用户，代表您在知情和同意的情况下，自愿向智驾科技提供您的个人用户信息，例如姓名、通讯地址、电邮地址、联系电话、身份证号码及偏好等。</b>
+								<b>2.在您服务过程中收集的信息</b>
+								<b>当您通过电话要求提供服务时，通话可能会被录音，以确保服务质量及确保您个人信息的准确性。
+我们会记录您通过我们平台链接或二维码进行的交易信息，包括保险产品名称、推广时间、交易状态、交易双方信息、交易金额、物流信息、推广费用等。
+</b>
+								<span>三、隐私保护</span>
+								<b>在必要情形下第三方可能接触并使用您的个人信息，包括得到授权的智驾科技员工、以及不时执行与我们的业务、营销活动和数据整理有关工作的其他公司或人员。所有此类人员及公司均需遵守相关保密协议，同时也需遵守国家关于个人信息保护有关法律法规，以确保您的个人信息随时得到保护。
+ 除上述用途外，智驾科技不会将您的个人信息用于任何未经您同意的用途。除了我们的业务合作伙伴、我们的法律顾问、外部审计机构或按照法律规定、监管规定或法庭裁决之外，我们不会将所接受的任何个人信息泄露、篡改、毁损、出售或者提供给任何第三方。
+智驾科技遵守现行的关于个人信息、数据及隐私保护的法律法规，采取充分的技术手段和制度管理，保护您提供给我们的个人信息、数据和隐私不受到非法的泄露或披露给未获授权的第三方。
+您可以提交书面请求以查阅您的个人信息，或要求对错误的信息进行更正、修改或删除。如果您的个人信息有任何变动，请通知我们以便我们保持信息更新并提供更好的服务。此外，您可以通过书面方式要求智驾科技从数据库中取消您所登记的任何保险服务并停止使用您的个人信息。
+</b>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+
+					
+
+					<!-- 商户协议 -->
+					<div class="platform_content_record OrderDetails" style="display: none;">
+						<div class="rderDetails_conter">
+							<h2>商户协议<p>更新时间：2017-11-11</p></h2>
+							<div  class="EssentialInformation">
+								<div class="EssentialInformation_left l">
+									<span style="margin-top: 0;">甲方：经纪公司</span>
+									<span style="margin-top: 0;">乙方：商户</span>
+									<b>甲、乙双方经共同协商，本着相互信任、相互支持的原则，在遵守法律法规的前提下就乙方为甲方推广、传播保险产品等服务达成如下协议。</b>
+
+
+									<span>第一条	协议期限</span>
+									<b>1.	本协议自甲、乙双方签订之日起生效，有效期一年。</b>
+									<b>2.	如果协议到期前30天双方均未就本协议提出书面异议，本协议将在有效期或续期届满后自动延续，每次延续协议有效期将自动延长1个自然年度。</b>
+									<b>3.	对于在本协议终止时仍处于保险期间内的保险产品，双方应分别按本协议约定承担保险合同约定的义务或相关服务支持，直至所有保险产品的保险期间终止。</b>
+
+
+									<span>第二条	合作内容及方式</span>
+									<b>一、在合作期间内，乙方通过乙方平台为甲方提供保险产品推广、传播服务，甲方提供产品推广相应支持并支付乙方一定比例的推广费用。</b>
+									<b>二、结算方式</b>
+									<b>在乙方严格按照本协议约定的前提下，甲方同意按照以下形式与乙方结算：</b>
+									<b>1.	合同签订生效后，双方于次月起每月月初核对上月出单量及扣除退保保费后的实收保费金额，核对无误后，乙方向甲方提供推广咨询费发票，甲方在收到发票后的十个工作日内将推广咨询费以银行转账的方式支付给乙方。推广费用结算形式以具体产品为准。</b>
+
+									<b>2.	乙方应向甲方开具相应付款金额的、符合国家规定的发票，如乙方为增值税纳税人，乙方应向甲方出具相应付款金额的增值税专用发票以及甲方要求乙方提供的其他付款凭证。如乙方提供的增值税专用发票不符合法律法规要求或甲方要求，甲方有权拒收或于发现问题后退回，乙方应及时更换。乙方未及时更换的，应承担相应违约责任。</b>
+
+									<b>3.	如无特殊说明，甲方默认乙方的收款账户为乙方在实名认证时所填写的银行账户。如需更改收款账户信息，乙方需在本协议签订后三个工作日内日，向甲方提出书面申请。由于乙方错误填写银行账户信息所造成的一切损失，由乙方承担。</b>
+
+									<span>第三条	甲、乙双方的权利与义务</span>
+									<b>一、	乙方应尽最大可能为甲方引导客户，在乙方自有网站、APP以及所负责的而广告栏等线上、线下相关场景提供甲方产品的推广、传播服务，提升甲方的客户量。</b>
+
+									<b>二、	在推广过程中，乙方需保证用于线上、线下推广的二维码、推广链接以及其他介绍宣传等资料全部由甲方提供，未经甲方书面同意，乙方不得对甲方提供的资料做任何修改或增删。若甲方发现乙方展示的保险产品信息与甲方提供并确认的信息不一致的，甲方有权要求乙方立即撤回不当展示信息并进行更正，同时甲方保留追究乙方责任、且随时解除本合作协议的权利。</b>
+
+									<b>三、	甲方将指定的合作产品，以网站页面展示的形式告知乙方进行相关的展示配置操作，若由于甲方产品、或其销售行为导致乙方或第三方损失的，由甲方承担相应责任。</b>
+
+									<b>四、	除非另行约定，乙方不得利用甲方的产品进行相关代理销售操作、也不得借保险产品向客户收取任何费用，由于乙方代理销售甲方产品或收取客户费用所造成的一切损失，由乙方承担。</b>
+
+									<b>五、	甲方有权根据业务需要上架或下架保险产品、调整保险产品内容、价格，相关调整应在甲方官方网站公示。</b>
+
+									<b>六、	甲、乙双方所提供、使用和印制的任何与本合作内容相关的宣传资料应事先经对方书面确认后方可对外发布。</b>
+
+									<b>七、	为保证双方友好合作，甲、乙双方任何一方不得在各及其他媒体和网站对对方进行不客观的负面报道。如有发生，甲、乙双方任何一方有权立即终止协议并保留法律诉讼的权利。</b>
+
+									<span>第四条	不可抗力</span>
+
+									<b>由于战争、地震、雷击、水灾、火灾、政府行为、黑客攻击、电信部门技术管制等不可抗力原因致使双方不能按约定履行协议，则本协议的履行时间应予以延期，双方均不对因延误造成的损失承担责任。若不可抗力事件致使协议履行延期超过一个月的，本协议任何一方有权书面通知对方立即终止本协议而无需承担违约责任。受影响一方应在不可抗力发生后尽快以传真或电子邮件通知对方，并在有关机关出具证明书后三天内以最快方式向对方提供一切相关材料。</b>
+
+									<span>第五条	保密条款</span>
+
+									<b>甲、乙双中任何一方均应对双方合作内容及从对方获得数据、资料及其他信息负永久的保密义务，不得提供、透露给任何第三方，亦不得将前述的数据、资料及其他信息用于本合同以外的任何用途。如有违约情形由违约方承担由此造成的一切损失。本协议项下双方的保密义务不因本协议提前终止或期限届满而解除。</b>
+
+
+									<span>第六条	知识产权</span>
+
+									<b>1、	在履行本协议期间，甲、乙双方在使用对方授权的企业名称、商标、商号、品牌、域名和网站时，应当完全单独为甲、乙双方在本协议中约定的内容服务，不得夹带其他业务内容或经营目的。</b>
+
+									<b>2、	甲、乙双方在其自身宣传材料、名片、市场宣传、网站建设以及其他任何方面使用对方授权的名称、域名和网站，都必须事先书面通知对方，并获得对方的书面许可后方可进行。否则一方有权随时以书面形式通知另一方终止协议，且由另一方承担由此而产生的一切法律责任，并赔偿因此造成的直接损失。</b>
+
+									<b>3、	甲、乙双方及其职员承诺在本协议期间及在本协议期满后，不对对方所拥有的商标、企业名称、域名等进行贬低或其他损害，也不对对方互联网网页或者网站进行贬低、抄袭、歪曲、破坏或者其他损害。</b>
+
+									<span>第七条	其他</span>
+									
+									<b>一、	本协议有任何修改，可由协议双方协商一致，签订补充协议予以明确。补充协议经双方有权签字人签字并加盖公章或合同专用章后生效，为本协议不可分割的组成部分，与本协议具有同等的法律效力。</b>
+
+									<b>二、	本协议期间内，双方皆有权以邮件形式解除本协议。本协议解除后双方应在十日内进行结算，乙方应根据结算情况提供服务发票，甲方在收到发票后十个工作日内将服务费以银行转账的方式支付给乙方。</b>
+
+									<b>三、	在执行本协议过程中如有争议，合作双方应友好协商解决。如协商不成的，任何一方均有权向甲方所在地人民法院起诉。</b>
+
+									<b>甲方（盖章）： </b>
+
+									<b>有权签字人（签字）：  </b>
+
+									<b>签定日期：   </b>
+
+									<b>乙方（盖章）： </b>
+
+									<b>有权签字人（签字）： </b>
+
+									<b>签定日期： </b>
+
+
+
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</div>
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sign_In1"></div>
+
+	<script type="text/javascript" src="./js/externalJS/clipboard.min.js?"></script>
+		<script>
+		var v= '1.0.6';
+		var url_nums=['./css/myCSS/index.css','./css/myCSS/merchant_platform.css','./js/myJS/config.js','./js/myJS/main.js']
+			Load(url_nums)
+	</script>
+	<script type="text/javascript" src="./js/externalJS/Introduce_rem.js?"></script>
+</body>
+</html>

@@ -1,0 +1,1322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>袋鼠保服</title>
+	<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" media="screen">
+	<!-- <link rel="stylesheet" type="text/css" href="./css/externalCSS/bootstrap.min.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/externalCSS/dcalendar.picker.css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/externalCSS/htmleaf-demo.css"> -->
+	<link rel="stylesheet" type="text/css" href="./css/myCSS/main.css?v=1.0.6">
+	<link rel="stylesheet" type="text/css" href="./css/externalCSS/laydate.css">
+    <link rel="stylesheet" type="text/css" href="./css/externalCSS/laydate1.css">
+    <link rel="stylesheet" type="text/css" href="./css/myCSS/unlock.css">
+    <script type="text/javascript" src="./js/externalJS/Introduce_jquery-1.11.0.min.js?" charset="utf-8"></script>
+	<script type="text/javascript" src="./js/externalJS/cookie.js?" charset="utf-8"></script>
+	<script type="text/javascript" src="./js/externalJS/Introduce_echarts.js?"></script>
+	<script type="text/javascript" src="./js/externalJS/Introduce_codemirror.js?"></script>
+	<script type="text/javascript" src="./js/externalJS/Introduce_zrenderDemo.js?"></script>
+	<script type="text/javascript" src="./js/externalJS/Introduce_javascript.js?"></script>
+	<script type="text/javascript" src="./js/myJS/unlock.js?" charset="utf-8"></script>
+	<script type="text/javascript" src="./js/externalJS/clipboard.min.js?"></script>
+	<script type="text/javascript" src="./js/externalJS/laydate.dev.js?"></script>
+	<script type="text/javascript" src="./js/externalJS/dcalendar.picker.js?"></script>
+	<script src="./js/myJS/load.js?v=1.0.6?" type="text/javascript" charset="utf-8"></script>
+	<script> 
+		var v= '1.0.6';
+		var url_nums=['./css/myCSS/index.css','./css/myCSS/merchant_platform.css','./js/myJS/config.js','./js/myJS/merchant_platform.js']
+			Load(url_nums)
+	</script>
+</head>
+<body>
+	<div class="loadings" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;background: #fff;z-index: 99999;">
+		<img src="./images/loding.png" alt="" style="position:absolute;top:50%;left:50%;width:50px;height:50px;margin-left: -25px;margin-top: -25px;"/>
+	</div>
+	<div id="Merchant_platform_conter">
+		<div class="Merchant_platform">
+			<div class="Merchant_platform_left l">
+				<div class="logo">
+					<img src="./images/logo.png" alt="">
+					<!-- <span>袋鼠保服开放平台</span> -->
+				</div>
+				<b></b>
+				<div class="Catalog">
+					<a class="Catalog_Modular active" href="javascript:;">商户平台</a>
+					<a class="Catalog_Modular" href="javascript:;">开发者中心</a>
+				</div>
+			</div>
+			<div class="Merchant_platform_right r">
+				<div class="Catalog l">
+					<a href="./general_Document.html">文档中心</a>
+				</div>
+				
+				<div class="SignIn SignIn1 l" style="display: none;">
+					<a class="SignIn_register" href="javascript:;" sid="1">登录</a>		
+					<a class="SignIn_register SignIn_a" href="javascript:;" sid="2">注册</a>		
+				</div>
+				<div class="SignIn SignIn2 l" style="display: none;">
+					<div class="messageNum messageNum1" href="javascript:;" style="display: none;">
+						<img src="./images/messageWhite.png" alt=""/>
+						<i style="display: none;">2</i>
+						<strong  style="display: none;"></strong>
+					</div>
+					<a class="email" href="javascript:;" style="cursor: text;"></a>
+					<em></em>
+					<a class="messageNum messageNum2" href="javascript:;">
+						退出
+					</a>
+					<div class="messageNum_conter" style="display: none;">
+						<p style="line-height: 4rem;">您的企业认证通过</p>
+						<div class="messageNum_conter_title">
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+							<p></p>
+						</div>
+						<div class="messageNum_conter_footer">
+							查看全部
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="authentication">
+			<div class="authentication_conter">
+				<p>完成企业认证，即可使用商户平台</p>
+				<p class="btn">
+					<a href="html/register.html" class="l active">立即认证</a>
+					<a href="index.html" class="r">返回首页</a>
+				</p>
+			</div>
+			<div class="platform" style="display: none;">
+				<div class="platform_menu">
+					<ul class="platform_menu_group">
+						<li class="menus">
+							<em class="DeploymenMmenu Icon"></em>
+							<span class="DeploymenMmenu">账号设置</span>
+							<b class="DeploymenMmenu"><img src="./images/Turn.png" alt=""></b>
+							<ul class="group" stop="0">
+								<li class="menu_conter">基本信息</li>
+								<li class="menu_conter">企业认证</li>
+								<li class="menu_conter">安全设置</li>
+							</ul>
+						</li>
+						
+						<li class="menus">
+							<em class="DeploymenMmenu Icon"></em>
+							<span class="DeploymenMmenu">产品合作</span>
+							<b class="DeploymenMmenu"><img src="./images/Turn.png" alt=""></b>
+							<ul class="group" stop="0">
+								<li class="menu_conter">产品推广</li>
+								<li class="menu_conter">产品定制</li>
+							</ul>
+						</li>
+						<li class="menu_conter">
+							<em class="Icon"></em>
+							<span>用户订单</span>
+						</li> 
+						<li class="menu_conter StatisticalOverview active">
+							<em class="Icon"></em>
+							<span>统计概览</span>
+						</li>
+						<li class="menu_conter">
+							<em class="Icon"></em>
+							<span>财务结算</span>
+						</li>
+					</ul>
+					<ul class="platform_menu_group Developer_Center" style="display: none;">
+						<li class="menu_conter">
+							<em class="Icon"></em>
+							<span>密钥管理</span>
+						</li>
+					</ul>
+				</div>
+				<div class="platform_content">
+					<!-- 账户管理>基本信息 -->
+					<div class="platform_content_record platform_content_record1" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>企业基本信息<a href="javascript:;" class="Modify_information">修改</a></h2>
+							<div class="enterprise_name enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>企业名称</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_addr enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>公司地址</span>
+								<input type="text" name="" value="">
+							</div>
+							<a class="btn Save_information" href="javascript:;">保存</a>
+						</div>
+						<div class="administrators content_record">
+							<h2>管理员信息<a href="javascript:;" class="Modify_information">修改</a></h2>
+							<div class="enterprise_admin_name enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>姓名</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_mobile enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>联系电话</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_ident_no enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>身份证号</span>
+								<input type="text" name="" value="">
+							</div>
+							<a class="btn Save_information" href="javascript:;">保存</a>
+						</div>
+					</div>
+
+
+
+					<!-- 账户管理>企业认证 -->
+					<div class="platform_content_record Enterprise_certification" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>企业信息</h2>
+							<div class="enterprise_name enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>企业名称</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_credit_code enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>社会统一信用代码</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_legal_name enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>法定代言人</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_legal_ident_no enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>法人身份证号</span>
+								<input type="text" name="" value="">
+							</div>
+						</div>
+						<div class="enterprise content_record">
+							<h2>银行信息</h2>
+							<div class="enterprise_account_name enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>银行开户名</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_card_number enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>银行账号</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_bank_addr enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>开户行所在地</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_bank_name enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>开户银行</span>
+								<input type="text" name="" value="">
+							</div>
+							<div class="enterprise_card_issuers enterprise_record">
+								<div class="enterprise_record_mark"></div>
+								<span>开户支行全称</span>
+								<input type="text" name="" value="">
+							</div>
+						</div>
+					</div>
+
+
+					<!-- 账户管理>安全设置 -->
+					<div class="platform_content_record security_setting" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>安全设置</h2>
+							<div class="enterprise_name enterprise_record">
+								<span>登录邮箱</span>
+								<div class="title">
+									<b class="security_setting_email"></b>
+									<a href="javascript:;" class="lookover">修改</a>
+								</div>
+							</div>
+							<div class="enterprise_name enterprise_record">
+								<span>绑定手机</span>
+								<div class="title">
+									<b class="active security_setting_mobile">未绑定</b>
+									<a href="javascript:;" class="lookover">修改</a>
+								</div>
+							</div>
+							<div class="enterprise_name enterprise_record">
+								<span>修改密码</span>
+								<div class="title">
+									<b>已设置</b>
+									<a href="javascript:;" class="lookover">修改</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+					<!-- 产品合作>产品推广 -->
+					<div class="platform_content_record Product_promotion Extension" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>产品推广</h2>
+							<div class="Product_promotion_tiem">
+								<span class="title">提交时间</span>
+								<div class="time">
+									<span id="Product_promotion_span">全部&nbsp;&nbsp;</span>
+									<img class="Select_date1" src="./images/riqi.png" alt="">
+									<input class="Select_date1_input" type="text" style="display: none;">
+								</div>
+								<span class="title1">-</span>
+								<div class="time">
+									<span id="Product_promotion_span1">全部&nbsp;&nbsp;</span>
+									<img class="Select_date2" src="./images/riqi.png" alt="">
+								</div>
+								<input class="search" type="text" placeholder="请输入产品名称" name="" style="margin-left: 1%;width: 15%;">
+								<button id="Product_promotion_query" style="margin-right: 1%;">查询</button>
+								<span class="title title_copy Extension_Reset">重置</span>
+								<a href="./productMall.html" class="a" style="display: inline-block;"><span></span>产品商城<img src="./images/export.png" alt=""></a>
+							</div>
+							<div id="platform_content_record3" class="product">
+								<ul class="product_header">
+									<li class="l">合作编号</li>
+									<li class="l">提交时间</li>
+									<li class="l">产品名称</li>
+									<li class="l">推广费</li>
+									<li class="l">合作方式</li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="paging">
+									<button class="prevPage" disabled="disabled" type="button" style="display: none;">上一页</button>
+									<button class="nextPage" type="button" style="display: none;">下一页</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- 产品合作>产品定制 -->
+					<div class="platform_content_record Product_promotion customization" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>产品定制</h2>
+							<div class="Product_promotion_tiem">
+								<span class="title">定制状态</span>
+								<div class="time condition custom_Status" status="open">
+									<span sid="" class="customization_state">全部&nbsp;&nbsp;</span>
+									<img src="./images/open.png" alt="">
+									<ul class="time_list" style="display: none;">
+										<li class="time_list_li1" sid="">全部</li>
+										<li class="time_list_li1" sid="1">待签约</li>
+										<li class="time_list_li1" sid="2">已签约</li>
+										<li class="time_list_li1" sid="3">驳回</li>
+										<li class="time_list_li1" sid="4">已定制</li>
+									</ul>
+								</div>
+								<span class="title">提交时间</span>
+								<div class="time">
+									<span id="customization_span">全部&nbsp;&nbsp;</span>
+									<img class="Select_date3" src="./images/riqi.png" alt="">
+								</div>
+								<span class="title1">-</span>
+								<div class="time">
+									<span id="customization_span1">全部&nbsp;&nbsp;</span>
+									<img class="Select_date4" src="./images/riqi.png" alt="">
+								</div>
+								<input class="search" type="text" placeholder="请输入产品名称" name="" style="margin-left: 1%;width: 15%;">
+								<button id="Product_promotion_query1" style="margin-right: 1%;">查询</button>
+								<span class="title title_copy customization_Reset">重置</span>
+								<a href="./productMall.html" class="a" style="display: inline-block;"><span></span>产品商城<img src="./images/export.png" alt=""></a>
+							</div>
+							<div id="platform_content_record4" class="product">
+								<ul class="product_header">
+									<li class="l">合作编号</li>
+									<li class="l">提交时间</li>
+									<li class="l">行业场景</li>
+									<li class="l">定制状态</li>
+									<li class="l">产品名称</li>
+									<li class="l">签约起期</li>
+									<li class="l">签约止期</li>
+									<li class="l">推广费</li>
+									<li class="l">推广方式</li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="paging">
+									<button class="prevPage" disabled="disabled" type="button" style="display: none;">上一页</button>
+									<button class="nextPage" type="button" style="display: none;">下一页</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- 用户订单 -->
+					<div class="platform_content_record Product_promotion user_order" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>用户订单</h2>
+							<div class="Product_promotion_tiem1 Product_promotion_tiem2" style="display: none;">
+								<a href="javascript:;" class="active">未对账</a>
+								<a href="javascript:;">已对账</a>
+								<a href="javascript:;">已结算</a>
+								<a href="javascript:;">全部</a>
+							</div>
+							<div class="Product_promotion_tiem">
+								<span class="title" style="margin-left: 1%;">下单时间</span>
+								<div class="time">
+									<span id="user_order_span">全部</span>
+									<img class="Select_date5" src="./images/riqi.png" alt="">
+								</div>
+								<span class="title1">-</span>
+								<div class="time">
+									<span id="user_order_span1">全部</span>
+									<img class="Select_date6" src="./images/riqi.png" alt="">
+								</div>
+								<input class="search" type="text" placeholder="请输入产品名称" name="" style="margin-left: 1%;width: 15%;">
+								<button id="Product_promotion_query2">查询</button>
+								<span class="title title_copy userOrder_Reset">重置</span>
+								<a class="order_Export1 a" href="javascript:;" style="display: inline-block;"><span></span>导出excel<img src="./images/export.png" alt=""></a>
+							</div>
+							<div id="platform_content_record5" class="product">
+								<ul class="product_header">
+									<li class="l" style="width: 20.65%;"><img src="./images/checkoff.png" status="open" class="switch_imgs1" alt="" style="display: inline;"><img src="" alt="">订单编号</li>
+									<li class="l">产品名称</li>
+									<li class="l">下单时间</li>
+									<li class="l" style="width: 14.65%;">保费</li>
+									<li class="l" style="width: 14.65%;">推广费</li>
+									<li class="l" style="width: 14.65%;">订单状态</li>
+								</ul>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期： -</a>
+									</p>
+									
+								</div>
+								<ul class="product_conter1">
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<div class="expandInDetail">
+									<p>
+										<a href="javascript:;">投保人：-</a>
+										<a href="javascript:;">推广方式：-</a>
+										<a href="javascript:;">承保结果：-</a>
+									</p>
+									<p>
+										<a href="javascript:;">保单号： -</a>
+										<a href="javascript:;">保险起期：-</a>
+									</p>
+									
+								</div>
+								<div class="paging">
+									<button class="prevPage" disabled="disabled" type="button" style="display: none;">上一页</button>
+									<button class="nextPage" type="button" style="display: none;">下一页</button>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<!-- 财务管理>我的收益 -->
+					<div class="platform_content_record my_earnings" style="display: block">
+						<div class="enterprise content_record" style="background: #fff;">
+							<h2>统计概况</h2>
+							
+							<div class="KeyIndex KeyIndex_zr">
+								<p><b></b><span>昨日关键指标</span></p>
+								<div class="KeyIndex_con">
+									<img src="./images/Promotionfee.png" alt="">
+									<em class="tgf">0</em>
+									<i>昨日推广费</i>
+								</div>
+								<div class="KeyIndex_con">
+									<img src="./images/Singlevolume.png" alt="">
+									<em class="policy_num">0</em>
+									<i>昨日订单量</i>
+								</div>
+								<div class="KeyIndex_con">
+									<img src="./images/premium.png" alt="">
+									<em class="premium_amt">0</em>
+									<i>昨日保费总额</i>
+								</div>
+							</div>
+							<div class="KeyIndex KeyIndex_jr">
+								<p><b></b><span>趋势</span></p>
+								<div class="Product_promotion_tiem">
+									<div class="time promotion_Mode" status="open">
+										<b>&nbsp;&nbsp;推广方式</b>
+										<span>全部</span>
+										<img src="./images/open.png" alt="">
+										<ul class="time_list" style="display: none;">
+											<li class="time_list_li">全部</li>
+											<li class="time_list_li">二维码</li>
+											<li class="time_list_li">链接</li>
+											<li class="time_list_li">API接口</li>
+										</ul>
+									</div>
+									<input class="search" type="text" placeholder="请输入产品名称" name="">
+									
+									<br>
+									<br>
+									<br>
+									<br>
+									
+									<div class="time get_Year" status="open" style="padding-left: 2rem;">
+										<b>&nbsp;&nbsp;年</b>
+										<span>2017</span>
+										<img src="./images/open.png" alt="">
+										<ul class="time_list" style="display: none">
+											
+										</ul>
+									</div>
+									<div class="time get_month" status="open" style="padding-left: 2rem;">
+										<b>&nbsp;&nbsp;月</b>
+										<span>全部</span>
+										<img src="./images/open.png" alt="">
+										<ul class="time_list" style="display: none">
+											
+										</ul>
+									</div>
+									<div class="time get_week" status="open" style="padding-left: 2rem;">
+										<b>&nbsp;&nbsp;周</b>
+										<span>全部</span>
+										<img src="./images/open.png" alt="">
+										<ul class="time_list" style="display: none">
+											
+										</ul>
+									</div>
+									<div class="time Product_promotion_query_btn" style="padding: 0;text-align: center;">查询</div>
+									<div class="time title_copy statistical_Overview_Reset" style="padding: 0;text-align: center;">重置</div>
+
+									<br>
+									<br>
+									<br>
+									<br>
+
+									<div class="time statistical_Overview_latest_Time1" style="padding: 0;text-align: center;">最近7天</div>
+									<div class="time statistical_Overview_latest_Time2" style="padding: 0;text-align: center;">最近30天</div>
+								</div>
+								<div class="KeyIndex_con KeyIndex_con_tgf">
+									<img src="./images/Promotionfee.png" alt="">
+									<em>0</em>
+									<i>推广费</i>
+								</div>
+								<div class="KeyIndex_con KeyIndex_con_dl">
+									<img src="./images/Singlevolume.png" alt="">
+									<em>0</em>
+									<i>单量</i>
+								</div>
+								<div class="KeyIndex_con KeyIndex_con_bfze">
+									<img src="./images/premium.png" alt="">
+									<em>0</em>
+									<i>保费总额</i>
+								</div>
+							</div>
+							<div class="Income_graph">
+								<div class="Income_graph_condition" sid="1">
+									<a href="javascript:;" sid="1" class="active">推广费</a>
+									<a href="javascript:;" sid="2">订单量</a>
+									<a href="javascript:;" sid="3">保费总额</a>
+								</div>
+							</div>
+							<div class="clear"></div>
+						</div>
+						<div class="enterprise recommend content_record">
+							<h2><span></span>产品推荐</h2>
+							<div class="recommendation">
+								<div class="product">
+									<img src="" alt="">
+									<div class="product_conter">
+										<h3></h3>
+										<p><span></span></p>
+										<button></button>
+									</div>
+								</div>
+								<div class="product">
+									<img src="" alt="">
+									<div class="product_conter">
+										<h3></h3>
+										<p><span></span></p>
+										<button></button>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 财务管理>结算管理 -->
+					<div class="platform_content_record Product_promotion Settlement" style="display: none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2>结算管理</h2>
+							<div class="Product_promotion_tiem1" sid="1">
+								<a href="javascript:;" sid="1" class="Settlement_type active">收入</a>
+								<a href="javascript:;" sid="2" class="Settlement_type">支出</a>
+								<a class="r historyBill" href="javascript:;">历史账单</a>
+							</div>
+							<div class="Product_promotion_tiem1 Product_promotion_tiem2" style="display: none;">
+								<a href="javascript:;" class="active">未对账</a>
+								<a href="javascript:;">已对账</a>
+								<a href="javascript:;">已结算</a>
+								<a href="javascript:;">全部</a>
+							</div>
+							<div class="Product_promotion_tiem2 settlementStatement">
+								<p>结算说明：<br>1.按账单周期出推广费账单，确认账单金额并寄送发票，收到发票后平台会向商户打款；<br>2.如因特殊原因（如该账期个别订单对账有问题），未进行结算，结余部分将会计入下一账期账单金额；<br>3.发票信息（包含：普通发票和专用发票）请严格按照开票信息提供。</p>
+							</div>
+							<div class="Product_promotion_tiem">
+								
+								<span class="title">结算状态</span>
+								<div class="time condition Settlement_status" status="open">
+									<span sid="">全部&nbsp;&nbsp;</span>
+									<img src="./images/open.png" alt="">
+									<ul class="time_list" style="display: none;">
+										<li sid="" class="time_list_li1">全部&nbsp;&nbsp;</li>
+										<li sid="1" class="time_list_li1">待对账&nbsp;&nbsp;</li>
+										<li sid="2" class="time_list_li1">待开发票&nbsp;&nbsp;</li>
+										<li sid="3" class="time_list_li1">发票待确认&nbsp;&nbsp;</li>
+										<li sid="4" class="time_list_li1">等待对方打款&nbsp;&nbsp;</li>
+										<li sid="5" class="time_list_li1">待收款&nbsp;&nbsp;</li>
+										<li sid="6" class="time_list_li1">已完成&nbsp;&nbsp;</li>
+									</ul>
+								</div>
+								<span class="title">账单时间</span>
+								<div class="time">
+									<span id="Settlement_span">全部</span>
+									<img class="Select_date7" src="./images/riqi.png" alt="">
+								</div>
+								<span class="title1">-</span>
+								<div class="time">
+									<span id="Settlement_span1">全部</span>
+									<img class="Select_date8" src="./images/riqi.png" alt="">
+								</div>
+								<input style="width: 15%;margin-left: 1%;" class="search" type="text" placeholder="请输入产品名称" name="">
+								<span id="Product_promotion_query3" class="title title_copy" style="margin-left: 1%;">查询</span>
+								<span class="title title_copy settlement_Reset">重置</span>
+								
+								<a href="javascript:;" class="a order_Export2"><span></span>导出excel<img src="./images/export.png" alt=""></a>
+							</div>
+							<div class="operation">
+								已对账
+							</div>
+							<div id="platform_content_record7" class="product">
+								<ul class="product_header product_ul">
+									<li class="l"><img src="./images/checkoff.png" status="open" class="switch_imgs2" alt=""><span>账单时间</span></li>
+									<li class="l slly slly1">收入来源</li>
+									<li class="l">账单编号</li>
+									<li class="l">产品名称</li>
+									<li class="l">订单量</li>
+									<li class="l">保费总额（元）</li>
+									<li class="l tui_guang_fei">推广费（元）</li>
+									<li class="l">结算状态</li>
+									<li class="l">操作</li>
+									<span class="clear"></span>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l"></li>
+									<li class="l slly"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+								</ul>
+
+								<div class="paging" style="width: 56%;">
+									<button class="prevPage" disabled="disabled" type="button" style="display: none;">上一页</button>
+									<button class="nextPage" type="button" style="display: none;">下一页</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- 开发者中心>密钥管理 -->
+					<div class="platform_content_record key_management" style="display: none;">
+						<div class="enterprise content_record">
+							<h2>密钥管理</h2>
+							<div class="enterprise_name enterprise_record">
+								<span class="l">商户名称</span>
+								<div class="title l">
+									<b></b>
+								</div>
+							</div>
+							<div class="enterprise_name enterprise_record" style="display: none;">
+								<span class="l">商户ID</span>
+								<div class="title l">
+									<b></b>
+								</div>
+							</div>
+							<div class="enterprise_name enterprise_record" style="display: none;">
+								<span class="l">商户密钥</span>
+								<div class="title l">
+									<a class="lookover" href="javascript:;">查看</a>
+								</div>
+							</div>
+							<div class="enterprise_name enterprise_record" style="display: none;">
+								<span class="l">开放平台公钥</span>
+								<div class="title l">
+									<a href="javascript:;">查看</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+
+					<!-- 财务结算>历史账单 -->
+					<div class="History_bill" style="display: none;">
+						<div class="enterprise content_record">
+							<h2><b>2017-08&nbsp;&nbsp;月度账单</b>
+								<div class="time condition monthlyBills" style="min-width: 10rem;margin-right: 5rem;">
+									<span id="History_bill" style="min-width: 5rem; float:left;">全部&nbsp;&nbsp;</span>
+									<img class="r Select_date9" style="margin-top: .8rem;" src="./images/riqi.png" alt="">
+								</div>
+							</h2>
+							<div class="RevenueAndExpenditureTrend RevenueAndExpenditureTrend_zx"></div>
+							<div class="RevenueAndExpenditureTrend RevenueAndExpenditureTrend_bz"></div>
+							<div class="RevenueAndExpenditureTrend RevenueAndExpenditureTrend_zz"></div>
+							<div class="RevenueAndExpenditureTrend RevenueAndExpenditureTrend_zc"></div>
+							<div class="clear"></div>
+						</div>
+					</div>
+					<!-- 账单明细 -->
+					<div class=" Product_promotion bill_details" style="display:none;background: #fff;">
+						<div class="enterprise content_record">
+							<h2 style="text-align: center;">
+								<span class="h2_title"></span>
+								<span class="h2_time" style="display: block;margin-left: 20rem;font-size: 16px;opacity: 0.8;"></span>
+							</h2>
+							<div class="Product_promotion_tiem" style="margin-top: 10rem; margin-bottom: 5rem;">
+								<div class="time condition Settlement_status bill_details_xd" status="open" style="width: 10rem;margin-right: 1%;">
+									<span sid="3">下单时间</span>
+									<img src="./images/open.png" alt="" style="float: right;">
+									<ul class="time_list" style="display: none;">
+										<li sid="1" class="time_list_li1">出单时间&nbsp;&nbsp;</li>
+										<li sid="2" class="time_list_li1">保险起期&nbsp;&nbsp;</li>
+										<li sid="3" class="time_list_li1">下单时间&nbsp;&nbsp;</li>
+									</ul>
+								</div>
+								<div class="time">
+									<span id="bill_details_span">全部</span>
+									<img class="Select_date10" src="./images/riqi.png" alt="">
+								</div>
+								<span class="title1">-</span>
+								<div class="time">
+									<span id="bill_details_span1">全部</span>
+									<img class="Select_date11" src="./images/riqi.png" alt="">
+								</div>
+								<input style="width: 15%;margin-left: 1%;" class="search order_Search" type="text" placeholder="请输入订单编号" name="">
+								<input style="width: 15%;margin-left: 1%;" class="search product_Search" type="text" placeholder="请输入产品名称" name="">
+								<span id="Product_promotion_query4" class="title title_copy" style="margin-left: 1%;">查询</span>
+								<span class="title title_copy billdetails_Reset">重置</span>
+							</div>
+							<div class="Product_promotion_tiem">
+								<span class="title title_copy billdetails_next_Bill" style="background: #463BB1; color: #fff;border-radius: 5px;">计入下期账单</span>
+								<span class="title" style="border:0;color: #000000;">如因特殊原因不结算个别订单，点此按钮可将该订单计入下一账期</span>
+								<a href="javascript:;" class="a order_Export3"><span></span>导出excel<img src="./images/export.png" alt=""></a>
+							</div>
+							<div id="platform_content_record8" class="product">
+								<ul class="product_header product_ul">
+									<li class="l" style="width: 20%;"><img src="./images/checkoff.png" status="open" class="switch_imgs3" alt=""><span style="width: 70%;">订单编号</span></li>
+									<li class="l" style="width: 5%;">投保人</li>
+									<li class="l">下单时间</li>
+									<li class="l">出单时间</li>
+									<li class="l">保险起期</li>
+									<li class="l">保费（元）</li>
+									<li class="l policyNumber" style="width: 19%;">保单号</li>
+									<span class="clear"></span>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+								<ul class="product_conter1 product_ul">
+									<li class="l" style="width: 20%;"></li>
+									<li class="l" style="width: 5%;"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l"></li>
+									<li class="l" style="width: 19%;"></li>
+								</ul>
+
+								<div class="paging" style="width: 56%;">
+									<button class="prevPage" disabled="disabled" type="button" style="display: none;">上一页</button>
+									<button class="nextPage" type="button" style="display: none;">下一页</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="Modify_mailbox">
+		<div class="mark"></div>
+		<div class="Modify_mailbox_conter modify">
+			<h1>修改登录邮箱</h1>
+			<input class="ipt" type="password" name="" placeholder="请输入登录密码">
+			<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			<a href="javascript:;" class="Modify_login_mailbox1">下一步</a>
+		</div>
+		<div class="Modify_mailbox_conter">
+			<h1>修改登录邮箱</h1>
+			<div class="New_mailbox">
+				<span>新的邮箱</span>
+				<input type="text" name="" value="">
+			</div>
+			<div class="New_mailbox Mailbox_validation">
+				<span>邮箱验证</span>
+				<input type="text" name="" value="">
+				<button href="javascript:;" class="Get_authentication_code">获取邮箱验证码</button>
+				<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			</div>
+			<a href="javascript:;" class="Modify_login_mailbox2">完成</a>
+		</div>
+		<div class="Modify_mailbox_conter modify">
+			<h1>绑定手机号码</h1>
+			<div class="New_mailbox ipt">
+				<span>新的手机</span>
+				<input type="text" class="modify_mobile" name="" value="">
+			</div>
+			<div class="New_mailbox Mailbox_validation ipt">
+				<span>手机验证</span>
+				<input type="text" name="" value="">
+				<button href="javascript:;" class="Mobile_phone_verification_code">获取手机验证码</button>
+				<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			</div>
+			<a href="javascript:;" class="Modify_login_mailbox3">完成</a>
+		</div>
+		<div class="Modify_mailbox_conter modify">
+			<h1>修改登录密码</h1>
+			<div class="New_mailbox ipt">
+				<span>登录邮箱</span>
+				<input type="text" name="" value="" placeholder="请输入登录邮箱">
+			</div>
+			<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			<div class="New_mailbox Mailbox_validation ipt">
+				<span>邮箱验证</span>
+				<input type="text" name="" value="">
+				<button href="javascript:;" class="Get_authentication_code">获取邮箱验证码</button>
+				<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			</div>
+			<a href="javascript:;" class="Modify_login_mailbox4">下一步</a>
+		</div>
+		<div class="Modify_mailbox_conter">
+			<h1>修改登录密码</h1>
+			<div class="New_mailbox">
+				<span>新的密码</span>
+				<input type="password" name="" value="">
+			</div>
+			<div class="New_mailbox">
+				<span>确认密码</span>
+				<input type="password" name="" value="">
+				<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			</div>
+			<a href="javascript:;" class="Modify_login_mailbox5">完成</a>
+		</div>
+		<div class="Modify_mailbox_conter modify">
+			<h1>商户密钥</h1>
+			<b class="closeButton"><img src="./images/gb.png" alt=""></b>
+			<span class="secret_key">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</span>
+		</div>
+	</div>
+	<div id="sign_In1"></div>
+	
+	<div id="bill">
+		<div class="bill_mock"></div>
+		<div class="bill_Validation bill_Validation_dz" style="display: none;">
+			<img class="img" src="./images/gb1.png" alt="" onclick="$('#bill').hide()">
+			<h2>确认对账</h2>
+			<p><b>账单周期：</b><span class="bill_clear">2017-08</span></p>
+			<p><b>账单编号：</b><span class="bill_clear">12345678902345</span></p>
+			<p><b>经纪公司：</b><span class="bill_clear">XXXXXXXXXXXXXX</span></p>
+			<p><b>产品名称：</b><span class="bill_clear">XXXXXXXXXXXXXX</span></p>
+			<p><b>推广费：</b><span>12.32元</span></p>
+			<div class="bill_Validation_btn">
+				<a href="javascript:;" class="l bill_Validation_btn_qx" onclick="$('#bill').hide()">取消</a>
+				<a href="javascript:;" class="r active bill_Validation_btn_qr" onclick="invoice('1')">确认</a>
+			</div>
+		</div>
+		<div class="bill_Validation bill_Validation_fp">
+			<img class="img" src="./images/gb1.png" alt="" onclick="$('#bill').hide()">
+			<h2>确认开票</h2>
+			<div class="paper_Invoice Invoice">
+				<label><em>发票编号</em><input class="bill_clear1" type="text" name="" value=""></label>
+				<label>
+					<em>物流公司</em>
+					<div class="paper_Invoice_div" onclick="logistics_Company(this)" status="open">
+						<span sid="">请选择物流公司</span>
+						<img src="./images/open.png" alt="">
+						<ul class="time_list" style="display: none;">
+										
+						</ul>
+					</div>
+				</label>
+				<label><em>物流单号</em><input class="bill_clear1" type="text" name="" value=""></label>
+			</div>
+			<div class="bill_Validation_btn">
+				<a href="javascript:;" class="l bill_Validation_btn_qx" onclick="$('#bill').hide()">取消</a>
+				<a href="javascript:;" class="r active bill_Validation_btn_qr" onclick="invoice('2')">确认</a>
+			</div>
+		</div>
+	</div>
+	<div id="export">
+		<div class="export_bg"></div>
+		<div class="export_center export_center_sj" style="display: none">
+			<img class="img1" src="./images/gb1.png" alt="" onclick="$('#export').hide()">
+			<div class="export_center_time">
+				<span class="title" style="margin-left: 1%;">投保时间</span>
+				<div class="time">
+					<span id="export_span"></span>
+					<img src="./images/riqi.png" alt="" onclick="Select_date('#export_span')">
+				</div>
+				<span class="title1">-</span>
+				<div class="time">
+					<span id="export_span1"></span>
+					<img src="./images/riqi.png" alt="" onclick="Select_date('#export_span1')">
+				</div>
+				<div class="clear"></div>
+			</div>
+			<p class="p">*单次导出条数最多不超过一万条</p>
+			<div class="export_center_btn">
+				<a href="javascript:;" class="l" onclick="$('#export').hide()">取消</a>
+				<a href="javascript:;" class="r active export_center_btn_a" onclick="orderExport(this)">导出</a>
+			</div>
+		</div>
+		<div class="export_center export_center_ts">
+			<img class="img1" src="./images/gb1.png" alt="" onclick="$('#export').hide()">
+			<div class="export_center_time">
+				<p>单次导出条数最多不超过一万条</p>
+			</div>
+			
+			<div class="export_center_btn1">
+				<a href="javascript:;" class="active export_center_btn1_a" onclick="$('#export').hide()">知道了</a>
+			</div>
+		</div>
+	</div>
+
+	
+	<script src="./js/externalJS/Introduce_rem.js?" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

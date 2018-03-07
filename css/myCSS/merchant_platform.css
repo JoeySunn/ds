@@ -1,0 +1,1819 @@
+
+.clear{
+	clear: both;
+}
+#Merchant_platform_conter{
+	width: 100%;
+	height: 100%;
+	overflow:hidden;
+	background-color: #fff;
+}
+#Merchant_platform_conter .Merchant_platform{
+	width: 97%;
+    height: 5rem;
+    background-color: #000;
+    padding: 0 1.5%;
+
+}
+#Merchant_platform_conter .authentication{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: none;
+	/*overflow: scroll;*/
+}
+#Merchant_platform_conter .authentication_conter{
+	width: 40rem;
+	height: 15rem;
+	text-align: center;
+	font-size: 2.63rem;
+	line-height: 2.63rem;
+	color: #000000;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -7.5rem;
+    margin-left: -20rem;
+}
+#Merchant_platform_conter .authentication_conter p{
+	margin-bottom: 7.75rem;
+}
+#Merchant_platform_conter .authentication_conter .btn{
+	width: 80%;
+	height:4rem;
+	margin: 0 10%;
+
+}
+#Merchant_platform_conter .authentication_conter .btn a{
+	display: inline-block;
+	width: 10.17rem;
+	height: 4rem;
+	line-height: 4rem;
+	font-size: 1.17rem;
+	border: 1px solid #463BB1;
+	text-decoration:none; 
+	color: #463BB1;
+	-moz-border-radius: 2px; /* Firefox */
+	  -webkit-border-radius: 2px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+	  border-radius: 2px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+
+	
+}
+#Merchant_platform_conter .authentication_conter .btn .active{
+	background-color: #463BB1;
+	border:0;
+	color: #fff;
+	box-sizing: border-box;
+}
+.Merchant_platform_left{
+	height: 5rem;
+}
+.Merchant_platform_left .logo{
+	float: left;
+	height: 100%;
+	line-height: 5rem;
+	color: #fff;
+	font-size: 1.5rem;
+}
+.Merchant_platform_left .logo img{
+	width: 9.33rem;
+	/*height: 3rem;*/
+	margin-top: 1rem;
+	float: left;
+	margin-right: 1rem;
+	cursor: pointer;
+
+}
+.Merchant_platform_left .logo span{
+	float: left;
+}
+.Merchant_platform_left b{
+	float: left;
+	display: inline-block;
+	width: 1px;
+	height: 1.67rem;
+	margin-top: 1.7rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: rgba(255,255,255,.3);
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);
+}
+.Merchant_platform_left .Catalog{	
+	float: left;
+	color: #fff;
+	height: 100%;
+	line-height: 5rem;
+
+}
+.Merchant_platform_left .Catalog a{
+	text-decoration: none;
+	color: rgba(255,255,255,.7);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);*/
+	font-size: 1.2rem;
+	margin-right: 1rem;
+}
+.Merchant_platform_right .Catalog{
+	height: 5rem;
+    line-height: 5rem;
+    margin-right: 1rem;
+}
+.Merchant_platform_right{
+	height: 5rem;
+}
+.Merchant_platform_right .SignIn {
+    position: relative;
+    margin-top: .8rem;
+}
+.Merchant_platform_right .SignIn1 a{
+	width: 8.67rem; 
+}
+.Merchant_platform_right .SignIn a {
+    display: inline-block;
+    /*min-width: 8.67rem;*/
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.17rem;
+    color: #fff;
+}
+.Merchant_platform_right .SignIn .SignIn_a {
+    color: #fff !important;
+    background: #FF196F;
+    border-radius: 61px;
+}
+.Merchant_platform_right .SignIn em {
+    display: inline-block;
+    width: 1px;
+    height: 1.33rem;
+    background: rgba(255,255,255,.3);
+    margin: 0 2rem;
+}
+.Merchant_platform_right .SignIn .messageNum {
+    position: relative;
+}
+.Merchant_platform_right .SignIn .messageNum1{
+	float: left;
+    margin-right: 2rem;
+}
+.Merchant_platform_right .SignIn .messageNum1 img{
+	width: 24px;
+    height: 30px;
+    margin-top: .33rem;
+}
+.Merchant_platform_right .SignIn .messageNum1 i{
+	width: 26px;
+    height: 18px;
+    line-height: 16px;
+    background: #FF196F;
+    border-radius: 100px;
+    font-size: 10px;
+    position: absolute;
+    right: -1.4rem;
+    top: 0;
+    text-align: center;
+    color: #fff;
+}
+.Merchant_platform_right .SignIn .messageNum1 strong{
+	width: 0;
+    display: block;
+    position: absolute;
+    bottom: -1rem;
+    left: 50%;
+    border-bottom: 15px solid #fff;
+    border-right: 15px solid rgba(0,0,0,0);
+    border-top: 15px solid rgba(0,0,0,0);
+}
+.Merchant_platform_right .SignIn .messageNum_conter{
+	position: absolute;
+    left: 0;
+    top: 4.1rem;
+    background: #fff;
+    width: 82.5%;
+    height: 200px;
+     z-index: 1; 
+    padding-left: 12%;
+}
+.Merchant_platform_right .SignIn .messageNum_conter p{
+	font-size: 12px;
+    color: #000000;
+    line-height: 4rem;
+}
+.Merchant_platform_right .SignIn .messageNum_conter .messageNum_conter_title{
+	overflow: hidden;
+    height: 120px;
+    overflow-y: scroll;
+}
+.Merchant_platform_right .SignIn .messageNum_conter .messageNum_conter_title p{
+	word-break: break-all;
+	line-height: 2rem;
+}
+.Merchant_platform_right .SignIn .messageNum_conter .messageNum_conter_footer{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2.67rem;
+    background: #F4F6FB;
+    text-align: center;
+    line-height: 2.67rem;
+    font-size: 12px;
+    color: #000000;
+}
+.Merchant_platform_right .logo{
+	float: left;
+	height: 100%;
+	line-height: 5rem;
+	color: rgba(255,255,255,.7);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);*/
+	font-size: 1rem;
+}
+.Merchant_platform_right .logo span{
+	float: left;
+}
+.Merchant_platform_right b{
+	float: left;
+	display: inline-block;
+	width: 1px;
+	height: 1.67rem;
+	margin-top: 1.7rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	background-color: rgba(255,255,255,.3)
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);
+}
+.Merchant_platform_right .Catalog{	
+	float: left;
+	color: #fff;
+	height: 100%;
+	line-height: 5rem;
+
+}
+.Merchant_platform_right .Catalog a{
+	text-decoration: none;
+	color: rgba(255,255,255,.7);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);*/
+	font-size: 1rem;
+	margin-right: 1rem;
+}
+.Merchant_platform_left .Catalog .active{
+	color: rgba(255,255,255,1);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#FFFFFFFF,endcolorstr=#FFFFFFFF);*/
+}
+
+.platform{
+	width: 100%;
+	height: 100%;
+}
+.platform .platform_menu{
+	width: 15%;
+	height: 93%;
+	background: #151820;
+	float: left;
+	overflow-y: scroll;
+}
+.platform .platform_menu .platform_menu_group{
+	width: 100%;
+	background: #2B303E;
+	padding-top: 2.67rem;
+	float: left;
+
+}
+.platform .platform_menu .platform_menu_group li{
+	width: 100%;
+    /*height: 5.67rem;*/
+    line-height: 5.67rem;
+    float: left;
+    cursor: pointer;
+}
+.platform .platform_menu .platform_menu_group .active{
+	    background: #463BB1;
+}
+.platform .platform_menu .platform_menu_group li .Icon{
+	width: 2rem;
+    float: left;
+    margin: 1.685rem 5%;
+}
+.platform .platform_menu .platform_menu_group li span{
+	width: 55%;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    margin-right: 5%;
+    text-align: center;
+}
+.platform .platform_menu .platform_menu_group li b img{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+}
+.platform .platform_menu .platform_menu_group li b .actives{
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg); 	/* Opera */
+}
+.platform .platform_menu .group{
+	width: 100%;
+	background: #151820;
+	display: none;
+}
+.platform .platform_menu .group li{
+	width: 100%;
+	/*height: 5rem;*/
+	line-height: 5rem;
+	font-size: 1rem;
+	color: rgba(255,255,255,.7);
+	
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7FFFFFFF,endcolorstr=#7FFFFFFF);
+	text-align: center;
+	background: #151820;
+}
+.platform .platform_menu .group .product_details .products{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.platform .platform_menu .group .product_details .products img{
+	position: absolute;
+    right: 15%;
+    top: 50%;
+    margin-top: -0.5rem;
+    transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg);
+}
+.platform .platform_menu .group .product_details .products .img{
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg);
+}
+.platform .platform_menu .group .product_details .detailss{
+	display: none;
+	float: left;
+}
+.platform .platform_menu .group .product_details .detailss li{
+	width: 100%;
+	height: 5rem;
+	background: #000;
+}
+.platform .platform_menu .group .product_details .detailss .active1{
+	background: #463BB1;
+}
+.platform .platform_menu .group .active{
+	background: #463BB1 !important;
+}
+.platform_content{
+	width: 81%;
+    height: 92%;
+    padding: 1% 2% 0 ;
+    float: left;
+    background: #f6f6f6;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+.platform_content_record{
+	width: 100%;
+	/*height: 100%;*/
+	/*background: #fff;*/
+	padding-bottom: 4rem;
+}
+.content_record{
+	width: 96%;
+	/*height: 100%;*/
+	padding-left: 4%;
+	padding-top: 4%;
+	padding-bottom: 4rem;
+}
+.content_record h2{
+	font-size: 1.67rem;
+	width: 100%;
+	line-height:4rem; 
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 1rem;
+
+}
+.content_record h2 a{
+	float: right;
+	margin-right: 5rem;
+	/*line-height: 4rem;*/
+	text-decoration: none;
+	color: #FF196F;
+	font-size: 1.2rem;
+}
+.enterprise_record{
+	width: 100%;
+	height: 4rem;
+	line-height: 4rem;
+	margin-bottom: 1rem;
+	position: relative;
+}
+.enterprise_record span{
+	display: inline-block;
+	width: 6rem;
+	color:#666;
+	margin-right: 2%;
+}
+.enterprise_record input{
+	color: #000;
+	width: 65%;
+	height: 4rem;
+}
+.enterprise_record .enterprise_record_mark{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.enterprise_record input:focus{
+	outline: none;
+	border: 1px solid #ccc;
+	text-indent: 1rem;
+}
+.content_record .btn{
+	display: block;
+background: #FF196F;
+border-radius: 2px;
+-moz-border-radius: 2px; /* Firefox */
+  -webkit-border-radius: 2px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 2px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+width: 13rem;
+height: 4rem;
+line-height: 4rem;
+text-align: center;
+text-decoration: none;
+color: #fff;
+margin: 2rem auto 0;
+display: none;
+}
+.Enterprise_certification h2{
+	border: 0;
+}
+.Enterprise_certification span{
+	width: 10rem !important;
+}
+.security_setting h2{
+	border: 0;
+}
+.security_setting .title{
+	color: #000;
+	width: 40%;
+	height: 4rem;
+	display: inline-block;
+}
+.security_setting .title a{
+	display: block;
+	float: right;
+	width: 8rem;
+	height: 3rem;
+	background: #E9E9F2;
+	border-radius: 4px;
+	-moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	line-height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.security_setting .title .active{
+	color: #f00;
+}
+#Modify_mailbox{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+#Modify_mailbox .mark{
+	width: 100%;
+	height: 100%;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	background: #2D2F3B;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#Modify_mailbox .Modify_mailbox_conter{
+	width: 40%;
+	background-color: #fff;
+	box-shadow: 0 8px 20px 0 rgba(0,0,0,0.30);
+	/*filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);*/
+	border-radius: 4px;
+	-moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	position: absolute;
+	left: 32%;
+	top: 31%;
+	display: none;
+}
+#Modify_mailbox .Modify_mailbox_conter .secret_key{
+	display:block;
+	width:90%;
+	margin-top:5rem;
+	height:10rem;
+	padding:0 5%;
+	word-wrap:break-word;
+}
+#Modify_mailbox .Modify_mailbox_conter h1{
+	width: 100%;
+	font-size: 2rem;
+	color: #000;
+	line-height: 2rem;
+	text-align: center;
+    margin-top: 2rem;
+    font-weight: normal;
+}
+#Modify_mailbox .Modify_mailbox_conter .ipt{
+	width: 80%;
+	height: 3.33rem;
+	display: block;
+	border: 1px solid #ccc;
+	text-align: center;
+	margin: 6rem 10%;
+}
+#Modify_mailbox .Modify_mailbox_conter a{
+	width: 80%;
+	height: 3.33rem;
+	line-height: 3.33rem;
+	text-decoration: none;
+	color: #fff;
+	display: block;
+	background: #FF196F;
+	border-radius: 100px;
+	-moz-border-radius: 100px; /* Firefox */
+  -webkit-border-radius: 100px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 100px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	text-align: center;
+	margin: 3rem 10%;
+	position: relative;
+}
+#Modify_mailbox .Modify_mailbox_conter .New_mailbox{
+	width: 80%;
+	height: 3.35rem;
+	margin: 3rem 10%;
+}
+#Modify_mailbox .Modify_mailbox_conter .New_mailbox span{
+	display: inline-block;
+	line-height: 3.33rem;
+	color: #666;
+	margin-right: 5%;
+}
+#Modify_mailbox .Modify_mailbox_conter .New_mailbox input{
+	width: 70%;
+	height: 3.33rem;
+	line-height: 3.33rem;
+	border: 1px solid #ccc;
+}
+#Modify_mailbox .Modify_mailbox_conter .Mailbox_validation input{
+	width: 35%;
+}
+#Modify_mailbox .Modify_mailbox_conter .Mailbox_validation button{
+	border: 0;
+	width: 30%;
+	height: 3.33rem;
+	text-align: center;
+	line-height: 3.33rem;
+	font-size: 12px;
+	 color: #fff;
+	 margin-left: 5%;
+	 background-color: #FF196F;
+	 border-radius: 100px;
+	 -moz-border-radius: 100px; /* Firefox */
+  -webkit-border-radius: 100px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 100px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	 outline: none;
+	 cursor: pointer;
+	 position: relative;
+}
+#Modify_mailbox .Modify_mailbox_conter b{
+	position: absolute;
+    right: 10%;
+    top: 5%;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    font-weight: normal;
+    cursor: pointer;
+}
+#Modify_mailbox .Modify_mailbox_conter b img{
+	width: 100%;
+}
+.Product_promotion h2{
+	border: 0;
+}
+.Product_promotion_tiem{
+	/*height: 3.33rem;*/
+	float: left;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+.Product_promotion .Product_promotion_tiem .title{
+	float: left;
+    line-height: 3.33rem;
+    /*margin-left: 2%;*/
+    margin-right: 1%;
+}
+.Product_promotion .Product_promotion_tiem .title1{
+	float: left;
+    line-height: 3.33rem;
+    margin: 0 1%;
+}
+.Product_promotion .Product_promotion_tiem .title_copy{
+	/*border: 1px solid #463BB1;
+	border-radius: 2px;
+	height: 100%;
+    padding: 0 2.92rem;
+    color: #463BB1;
+	letter-spacing: 0.5px;
+	cursor: pointer;*/
+	width: 8rem;
+    height: 3.33rem;
+    border: 0;
+    /*background: #FF196F;*/
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+    border: 1px solid #B8B8BB;
+}
+.Product_promotion .time{
+	float: left;
+    display: inline-block;
+    height: 3.33rem;
+    border: 1px solid #B8B8BB;
+    border-radius: 4px;
+    -moz-border-radius: 4px; /* Firefox */
+    -webkit-border-radius: 4px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+    border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    padding: 0 1%;
+    position: relative;
+    cursor: pointer;
+    min-width: 5rem;
+}
+
+.Product_promotion .time span{
+	float: left;
+    height: 100%;
+    line-height: 3.33rem;
+}
+.Product_promotion .time img{
+    margin-top: .85rem;
+    float: right;
+    margin-left: 1rem;
+}
+.Product_promotion .condition{
+	margin-right: 5%;
+}
+.Product_promotion .condition img{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	
+}
+.Product_promotion .Product_promotion_tiem button{
+	width: 8rem;
+    height: 3.33rem;
+    border: 0;
+    background: #FF196F;
+    border-radius: 100px;
+    -moz-border-radius: 100px; /* Firefox */
+  -webkit-border-radius: 100px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 100px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    color: #fff;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.Product_promotion .a{
+	width: 7rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    float: right;
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    padding-left: 1rem;
+    margin-right: 3%;
+    /*display: none;*/
+}
+.Product_promotion .a span{
+	display: inline-block;
+    width: 100%;
+    height: 100%;
+    opacity: 0.05;
+    filter:alpha(opacity=5);
+    background: #9D20B3;
+    border-radius: 100px;
+    -moz-border-radius: 100px; /* Firefox */
+  -webkit-border-radius: 100px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 100px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Product_promotion .a img{
+	width: 2rem;
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+.Product_promotion .product{
+	width: 100%;
+    margin-top: 5%;
+    padding-bottom: 10rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    position: relative;
+}
+.Product_promotion .product ul{
+	width: 100%;
+	height: 3.6rem;
+	min-width: 1270px !important;
+}
+.Product_promotion .product .expandInDetail{
+	width: 99.9%;
+    height: 10.25rem;
+    min-width: 1270px !important;
+    background: #FFFFFF;
+	box-shadow: 0 1px 5px 0 rgba(171,171,171,0.50);
+	margin: 0 auto;
+	display: none;
+}
+.Product_promotion .product .expandInDetail p{
+	width: 100%;
+	padding-top: 2.75rem;
+	font-size: 12px;
+	margin-top: 
+}
+.Product_promotion .product .expandInDetail p a{
+	display: inline-block;
+    width: 18%;
+	text-decoration: none;
+	margin-left: 10.8%;
+	color: #000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: text;
+}
+.Product_promotion .product ul li{
+    width: 20%;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    position: relative;
+    text-overflow: ellipsis;
+   
+}
+.Product_promotion .product ul .li{
+	 overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.user_order .product ul li{
+    width: 16.65%;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+}
+.Product_promotion .product .product_header li{
+	background: #3E4067;
+	color: #fff;
+}
+.Product_promotion .product .product_conter li{
+	background: #fff;
+}
+.Product_promotion .product .product_conter li .contactService{
+	text-decoration: none;
+    color: rgb(70,59,177);
+}
+.Product_promotion .product .product_conter1 li{
+	background: #F8F9FE;
+}
+.Product_promotion .product .product_conter1 li .contactService{
+	text-decoration: none;
+    color: rgb(70,59,177);
+}
+.Product_promotion .product ul li img{
+	/*width: 10%;*/
+}
+.Product_promotion .product ul li span{
+	float: left;
+    /*width: 35%;*/
+    overflow:hidden;
+    text-overflow: ellipsis;
+    margin-left: 2rem;
+}
+.Product_promotion .product ul li .left{
+	/*margin-right: 20%;*/
+}
+.Product_promotion .Product_promotion_tiem .search{
+	width: 26.5%;
+	height: 3.33rem;
+	background-image: url(../../images/search.png);
+	background-repeat: no-repeat;
+	background-position: 5% center;
+	/*text-align: center;*/
+	border: 1px solid #B8B8BB;
+	border-radius: 4px;
+	-moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	padding-left: 5%;
+	float: left;
+	line-height: 3.33rem;
+	position: relative;
+}
+.paging{
+	width: 60%;
+    height: 3.33rem;
+    margin-left: 40%;
+    margin-top: 5rem;
+    position: absolute;
+    bottom: 0px;
+}
+.paging a{
+	width: 24px !important;
+	height: 24px !important;
+	text-align: center !important;
+	line-height: 24px !important;
+	border-radius: 2px;
+	-moz-border-radius: 2px; /* Firefox */
+  -webkit-border-radius: 2px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 2px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	border:1px solid #B8B8BB;
+	margin-right: 1%;
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+}
+.paging .prevPage{
+	margin-right: 1%;
+}
+.paging button{
+	background-color: rgba(0,0,0,0);
+	filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#00FFFFFF,endcolorstr=#00FFFFFF);
+    border: 1px solid #b8b8bb;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.paging .active{
+	background: #463BB1;
+	color: #fff;
+
+}
+.my_earnings{
+	height: 100%;
+}
+/*.my_earnings h2{
+	border: 0;
+}*/
+.my_earnings .time{
+	    height: 3.33rem;
+    width: 7%;
+    float: left;
+    border: 1px solid #B8B8BB;
+    border-radius: 4px;
+    -moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    line-height: 3.33rem;
+    position: relative;
+    margin-right: 1%;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    cursor: pointer;	
+}
+.my_earnings .KeyIndex{
+	width: 100%;
+	margin-top: 4rem;
+}
+.my_earnings .KeyIndex p{
+	margin-bottom: 4.26rem;
+}
+.my_earnings .KeyIndex p b{
+	display: inline-block;
+	width: 1rem;
+	height: 1.33rem;
+	background: #FF196F;
+	margin-right: 1rem;
+}
+.my_earnings .KeyIndex p span{
+	color: #000;
+	font-size: 1.33rem;
+}
+.my_earnings .KeyIndex .KeyIndex_con{
+	width: 14rem;
+	height: 10.5rem;
+	background: #FFFFFF;
+	border: 1px solid rgba(70,59,177,0.10);
+	border-radius: 4px;
+	text-align: center;
+	margin-right: 1.25rem;
+	display:  inline-block;
+}
+.my_earnings .KeyIndex .KeyIndex_con img{
+	width: 3.17rem;
+	height: 3.17rem;
+	display: block;
+	margin: 0 auto;
+	margin-top: 1.67rem;
+}
+.my_earnings .KeyIndex .KeyIndex_con em{
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 0.8rem 0;
+	color: #463BB1;
+}
+.my_earnings .KeyIndex .KeyIndex_con i{
+	display: block;
+	color: #000;
+	font-size: 1rem;
+}
+.my_earnings .Income_graph{
+	position: relative;
+    margin-top: 5rem;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+}
+.my_earnings .Income_graph .Income_graph_condition{
+	width: 100%;
+}
+.my_earnings .Income_graph .Income_graph_condition a{
+	height: 3.33rem;
+    /* width: 5%; */
+    width: 5rem;
+    /* float: left; */
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    border: 1px solid #B8B8BB;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    line-height: 3.33rem;
+    position: relative;
+    margin-right: 1%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    text-align: center;
+}
+.my_earnings .Income_graph .Income_graph_condition .active{
+	background: #463BB1;
+	color: #fff;
+}
+.my_earnings .time b{
+	    position: absolute;
+    left: 0;
+    top: 0;
+}
+.time_list{
+	position: absolute;
+    top: 3.3rem;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #fff;
+    z-index: 99;
+}
+.my_earnings .enterprise .search{
+	width: 26.5%;
+    height: 3.33rem;
+    background-image: url(../../images/search.png);
+    background-repeat: no-repeat;
+    background-position: 5% center;
+    /* text-align: center; */
+    border: 1px solid #B8B8BB;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 5%;
+    float: left;
+    line-height: 3.33rem;
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 1%;
+}
+.time_list li{
+	text-align: center;
+	height: 3.3rem;
+	line-height: 3.3rem;
+	cursor: pointer;
+}
+.time_list li:hover{
+	background: #ccc;
+}
+.my_earnings .time span{
+	width: 100%;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.my_earnings .time img{
+	float: right;
+    position: absolute;
+    right: 0rem;
+    top: .8rem;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.my_earnings .time .img{
+	transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+.my_earnings h2 span{
+	width: 13px;
+    height: 1.3rem;
+    background-color: #ff196f;
+    display: inline-block;
+    float: left;
+    margin-top: 1.4rem;
+    margin-right: 1rem;
+}
+.my_earnings .recommendation{
+	width: 100%;
+}
+.my_earnings .recommendation .product{
+	width: 23.1%;
+	/*height: 27.1%;*/
+	display: inline-block;
+	margin-right:10%;
+	background: #fff;
+}
+.my_earnings .recommendation .product img{
+	width: 100%;
+	height: 18.64rem;
+}
+.my_earnings .recommendation .product h3{
+	font-size: 1.3rem;
+	color: #000000;
+	margin-top: 1.17rem;
+	padding: 1.97rem 0 0; 
+}
+.my_earnings .recommendation .product p{
+	width: 100%;
+	height: 1rem;
+	font-size: 1rem;
+	opacity: 0.7;
+	filter:alpha(opacity=70);
+	color: #000;
+	line-height: 1rem;
+	padding: 2.17rem 0;
+}
+.my_earnings .recommendation .product p span{
+	width: 10px;
+    height: 10px;
+    background-color: #000;
+    display: inline-block;
+    border-radius: 100px;
+    -moz-border-radius: 100px; /* Firefox */
+  -webkit-border-radius: 100px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 100px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    margin-right: 10px;
+    position: relative;
+}
+.my_earnings .recommendation .product button{
+	border: 0;
+	width:11.67rem;
+	height: 2.67rem;
+	background: #463BB1;
+	border-radius: 2px;
+	-moz-border-radius: 2px; /* Firefox */
+  -webkit-border-radius: 2px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 2px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+	color: #fff;
+	margin-bottom: 2rem;
+	position: relative;
+	cursor: pointer;
+}
+.my_earnings .recommendation .product_conter{
+	width: 90%;
+	padding-left: 10%;
+}
+.Settlement{
+	/*padding-bottom: 15rem;*/
+}
+.Settlement .content_record{
+	width: 100%;
+    
+     padding-left: 0; 
+    padding-top: 4%;
+}
+.Settlement h2{
+	border: 0;
+	width: 96%;
+	padding-left: 4%; 
+}
+.Product_promotion_tiem1{
+	background: #F4F6FB;
+	padding-left: 4%;
+	width: 96%;
+	min-height: 6.42rem;
+	margin-bottom: 5rem;
+}
+.Product_promotion_tiem1 .historyBill{
+	font-size: 18px;
+	color: #463BB1;
+}
+.Product_promotion_tiem2{
+	background: rgba(0,0,0,0);
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: 0;
+    line-height: 30px;
+    padding-left: 4%;
+    width: 96%;
+    min-height: 6.42rem;
+    margin-bottom: 5rem;
+}
+.Product_promotion_tiem1 a{
+	height: 100%;
+	line-height: 6.42rem;
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #666;
+	padding-bottom: 1rem;
+	margin-right: 7rem;
+
+}
+.Product_promotion_tiem1 .active{
+	color: #463BB1;
+	border-bottom: 5px solid #463BB1;
+}
+.Settlement .Product_promotion_tiem{
+	padding-left: 4%;
+	width: 96%;
+}
+.Settlement .product{
+	padding-left: 4%;
+	width: 96%;
+}
+.Settlement .condition {
+    margin-right: 2%;
+}
+.Settlement .product ul li{
+	    width: 7%;
+}
+#platform_content_record3  ul li img{
+	float: "" !important;
+}
+#platform_content_record4  ul li img{
+	float: "" !important;
+}
+.product ul li img{
+	float: left;
+	margin-left: 5%;
+	margin-top: .85rem;
+	width: 1.5rem;
+	height: 1.5rem;
+	/*display: none;*/
+}
+.product ul li .img{
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); 	/* IE 9 */
+	-moz-transform:rotate(90deg); 	/* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); 	/* Opera */
+}
+.product ul li .img1{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+}
+.Settlement .product ul li a{
+	text-decoration: none;
+	color: #463BB1;
+}
+
+
+.Settlement .product .product_ul li{
+	    width: 11%;
+}
+.Settlement1 .product .product_ul li{
+		width: 12.5%;
+}
+.bill_details .product .product_ul li{
+	width: 14%;
+}
+.Settlement .operation{
+	width: 7.58rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    background: #463BB1;
+    border-radius: 4px;
+    -moz-border-radius: 4px; /* Firefox */
+  -webkit-border-radius: 4px; /* Safari 和 Chrome http://www.manongjc.com/article/1214.html */
+  border-radius: 4px; /* Opera 10.5+, 以及使用了IE-CSS3的IE浏览器 */
+    float: right;
+    margin-right: 3%;
+    margin-bottom: 1%;
+    color: #fff;
+    position: relative;
+    display: none;
+}
+.key_management .enterprise_name a{
+	float: left;
+	text-decoration: none;
+}
+.security_setting .enterprise_name{
+	width: 100%;
+	height: 4rem;
+}
+.customization .product ul li{
+	width: 11%;	
+}
+.OrderDetails{
+	width: 100%;
+    background: #fff;
+    padding-bottom: 4rem;
+}
+.OrderDetails .OrderDetails_title{
+	width: 96%;
+    height: 6.42rem;
+    line-height: 6.42rem;
+    background: #463BB1;
+    padding-left: 4%;
+    font-size: 1.67rem;
+    color: #fff;
+}
+.OrderDetails .rderDetails_conter{
+	width: 96%;
+    height: 100%;
+    padding-left: 4%;
+    padding-top: 4rem;
+}
+.OrderDetails .rderDetails_conter h2{
+	font-size: 1.67rem;
+    width: 100%;
+    line-height: 4rem;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+.OrderDetails .rderDetails_conter h2 p{
+	    font-size: 12px;
+    color: #666666;
+    font-weight: normal;
+}
+.OrderDetails .rderDetails_conter .EssentialInformation{
+	padding: 2rem 0;
+    font-size: 1.33rem;
+}
+
+.OrderDetails .rderDetails_conter .EssentialInformation .EssentialInformation_left b{
+	display: block;
+    text-indent: 2rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.1rem;
+    color: #666;
+}
+.OrderDetails .rderDetails_conter .EssentialInformation .EssentialInformation_left span{
+	color: #000;
+    margin-right: 1rem;
+    display: block;
+    line-height: 2.4rem;
+    margin-top: 5rem;
+}
+.OrderDetails .rderDetails_conter .EssentialInformation span{
+	color:#666;
+	margin-right: 1rem;
+}
+.OrderDetails .rderDetails_conter .EssentialInformation table{
+	border: 1px solid #B8B8BB;
+	border-collapse:collapse;
+}
+.OrderDetails .rderDetails_conter .EssentialInformation table td{
+    border: 1px solid #b8b8bb;
+    text-align: center;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    padding: 0 2.33rem;
+}
+.InsuranceContent span{
+	float: left;
+}
+.History_bill{
+	min-height: 100%;
+	background: #fff;
+}
+.History_bill .content_record h2 .time{
+	float: right;
+    display: inline-block;
+    height: 3.33rem;
+    border: 1px solid #B8B8BB;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 1%;
+    position: relative;
+    margin-right: 2%;
+    font-size: 1.17rem;
+    font-weight: normal;
+}
+.History_bill .content_record h2 .time span{
+	float: left;
+    height: 100%;
+    line-height: 3.33rem;
+}
+.History_bill .content_record h2 .time span img{
+	transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+.History_bill .RevenueAndExpenditureTrend{
+	    margin-top: 7.83rem;
+	    /*border-bottom: 1px solid #E1E1E1;*/
+	    padding-bottom: 5rem;
+	    overflow: hidden;
+}
+.History_bill .RevenueAndExpenditureTrend_title span{
+	color: #000;
+    font-size: 1.33rem;
+}
+.History_bill .RevenueAndExpenditureTrend_title b{
+	display: inline-block;
+    width: 1rem;
+    height: 1.33rem;
+    background: #FF196F;
+    margin-right: 1rem;
+}
+.my_earnings .Product_promotion_query_btn{
+	width: 8rem;
+    height: 3.33rem;
+    border: 0;
+    background: #FF196F;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color: #fff;
+    margin-left: 0;
+    float: left;
+    position: relative;
+}
+.my_earnings .statistical_Overview_Reset{
+	border-radius: 100px;
+}
+
+#Product_promotion_query3,#Product_promotion_query4{
+	width: 8rem;
+    height: 3.33rem;
+    border: 0;
+    background: #FF196F;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color: #fff;
+    margin-left: 3%;
+    float: left;
+    position: relative;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+.Get_promotion_methods{
+	display: none;
+	width: 10rem;
+    position: absolute;
+    left: 0;
+    height: 10rem;
+    background: #fff;
+    z-index: 9;
+    box-shadow: 0 4px 9px 0 rgba(0,0,0,0.30);
+    border-radius: 4px;
+    
+}
+
+.Get_promotion_methods3{
+     top: -10rem;
+      margin-left: -23%;
+}
+.Get_promotion_methods1{
+    top: -10rem;
+    margin-left: 5%;
+}
+.Get_promotion_methods2{
+    top: -10rem;
+    margin-left: 15%;
+}
+.Get_promotion_methods3_1{
+     bottom: -10rem;
+      margin-left: -25%;
+}
+.Get_promotion_methods1_1{
+    bottom: -10rem;
+    margin-left: 5%;
+}
+.Get_promotion_methods2_1{
+    bottom: -10rem;
+    margin-left: 15%;
+}
+.Get_promotion_methods .img{
+	width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    left: 25%;
+    top: 8%;
+}
+
+.Get_promotion_methods .p1{
+	width: 80%;
+    overflow: hidden;
+    /* height: 3.33rem; */
+    /* line-height: 3.33rem; */
+    position: absolute;
+    top: 2rem;
+    left: 10%;
+    background: #F8F8FD;
+    border: 0 solid #E3E3F3;
+    overflow: hidden;
+    height: 3.33rem;
+}
+.Get_promotion_methods .p{
+	position: absolute;
+    bottom: 0;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+    height: 2.33rem;
+    line-height: 2.33rem;
+    background: #463BB1;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.Get_promotion_methods .b{
+	position: absolute;
+    border-left: 10px solid rgba(0,0,0,0);
+    border-right: 10px solid rgba(0,0,0,0);
+    border-top: 10px solid #fff;
+    display: none;
+}
+.Get_promotion_methods3_1 .b{
+	position: absolute;
+    top: -13px;
+    left: 50%;
+    border-left: 10px solid rgba(0,0,0,0);
+    border-right: 10px solid rgba(0,0,0,0);
+    border-bottom: 10px solid #fff;
+}
+.Get_promotion_methods1_1 .b{
+	position: absolute;
+    top: -13px;
+    left: 50%;
+    border-left: 10px solid rgba(0,0,0,0);
+    border-right: 10px solid rgba(0,0,0,0);
+    border-bottom: 10px solid #fff;
+}
+.Get_promotion_methods2_1 .b{
+	position: absolute;
+    top: -13px;
+    left: 75%;
+    border-left: 10px solid rgba(0,0,0,0);
+    border-right: 10px solid rgba(0,0,0,0);
+    border-bottom: 10px solid #fff;
+}
+.Get_promotion_methods3 .b{
+    bottom: -10px;
+    left: 50%;
+}
+.Get_promotion_methods1 .b{
+    bottom: -10px;
+    left: 50%;
+}
+.Get_promotion_methods2 .b{
+    bottom: -10px;
+    left: 75%;
+}
+.bill_details .img{
+	transform: rotate(0deg) !important;
+    -ms-transform: rotate(0deg) !important;
+    -moz-transform: rotate(0deg) !important;
+    -webkit-transform: rotate(0deg) !important;
+    -o-transform: rotate(0deg) !important;
+}
+#bill{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 974px;
+    display: none;
+}
+#bill .bill_mock{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: #2D2F3B;
+}
+#bill .bill_Validation{
+	background: #FFFFFF;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.30);
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 40rem;
+    margin-left: -20rem;
+    padding: 3.33rem;
+}
+#bill .bill_Validation .img{
+	position: absolute;
+	right: 2rem;
+	top: 2rem;
+	width: 3.17rem;
+	height: 3.17rem;
+	cursor: pointer;
+}
+#bill .bill_Validation h2{
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 5rem;
+}
+#bill .bill_Validation p{
+    line-height: 4rem;
+    color: #000000;
+    font-size: 14px;
+}
+#bill .bill_Validation p b{
+	float: left;
+	width: 10rem;
+}
+#bill .bill_Validation p span{
+	margin-left: 5rem;
+}
+#bill .bill_Validation .bill_Validation_btn{
+    margin-top: 6rem;
+    width: 100%;
+}
+#bill .bill_Validation .bill_Validation_btn a{
+	border: 1px solid #979797;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    color: #000;
+}
+#bill .bill_Validation .bill_Validation_btn .active{
+	background: #463BB1;
+	border-radius: 4px;
+	color: #fff;
+}
+#bill .bill_Validation .identity_type{
+    width: 100%;
+    height: 24px;
+    position: relative;
+}
+#bill .bill_Validation .identity_type label{
+	display: inline-block;
+    height: 24px;
+    line-height: 24px;
+    float: left;
+    margin-right: 5rem;
+    cursor: pointer;
+}
+#bill .bill_Validation .identity_type label img{
+	width: 24px;
+    float: left;
+}
+#bill .bill_Validation .identity_type label b{
+	margin-left: 1rem;
+}
+#bill .bill_Validation .Invoice{
+	margin-top: 5rem;
+}
+#bill .bill_Validation .Invoice label{
+    display: block;
+    float: left;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+#bill .bill_Validation .Invoice .paper_Invoice_div{
+	font-style: normal;
+    text-indent: 1rem;
+    border: 1px solid #B8B8BB;
+    height: 3.33rem;
+    width: 25rem;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+#bill .bill_Validation .Invoice .paper_Invoice_div span{
+	line-height: 3.33rem;
+    float: left;
+}
+#bill .bill_Validation .Invoice .paper_Invoice_div img{
+	float: right;
+    margin-top: .5rem;
+    width: 2.33rem;
+    height: 2.33rem;
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+}
+#bill .bill_Validation .Invoice .paper_Invoice_div .img1{
+	transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+#bill .bill_Validation .Invoice label em{
+	display: inline-block;
+    float: left;
+    width: 10rem;
+    height: 3.33rem;
+    font-size: 14px;
+    color: #000000;
+    line-height: 3.33rem;
+}
+#bill .bill_Validation .Invoice label input{
+	font-style: normal;
+    text-indent: 1rem;
+    border: 1px solid #B8B8BB;
+    height: 3.33rem;
+    width: 25rem;
+}
+#export{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 974px;
+     display: none; 
+}
+#export .export_bg{
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    background: #2D2F3B;
+}
+#export .export_center{
+    background: #FFFFFF;
+    box-shadow: 0 8px 20px 0 rgba(0,0,0,0.30);
+    border-radius: 4px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 40rem;
+    margin-left: -20rem;
+    padding: 3.33rem;
+    display: none;
+}
+#export .img1{
+	position: absolute;
+    right: 2rem;
+    top: 2rem;
+    width: 3.17rem;
+    height: 3.17rem;
+    cursor: pointer;
+}
+#export .title{
+    margin-right: 5%;
+    float: left;
+    line-height: 3.33rem;
+}
+#export .time{
+    float: left;
+    display: inline-block;
+    height: 3rem;
+    border: 1px solid #B8B8BB;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    padding: 0 1%;
+    position: relative;
+    cursor: pointer;
+    min-width: 10rem;
+}
+#export .title1{
+    float: left;
+    line-height: 3.33rem;
+    margin: 0 1rem;
+}
+#export .time span{
+	float: left;
+    line-height: 3.33rem;
+    padding: 0 1rem;
+}
+#export .time img{
+    margin-top: .5rem;
+    float: right;
+}
+#export .export_center_time{
+	padding-top: 10rem;
+	font-size: 16px;
+	line-height: 3.33rem
+}
+#export .export_center_time p{
+	text-align: center;
+}
+#export .p{
+	text-align: right;
+	line-height: 3.33rem;
+}
+#export .export_center_btn{
+	margin-top: 6rem;
+    width: 100%;
+}
+#export .export_center_btn a{
+	border: 1px solid #979797;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    color: #000;
+}
+#export .export_center_btn .active{
+	background: #463BB1;
+    border-radius: 4px;
+    color: #fff;
+}
+#export .export_center_btn1{
+	margin-top: 6rem;
+    width: 100%;
+    text-align: center;
+}
+#export .export_center_btn1 a{
+	text-align: center;
+	display: inline-block;
+	border: 1px solid #979797;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem 4rem;
+    color: #000;
+    background: #463BB1;
+    color: #fff;
+}
+

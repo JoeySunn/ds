@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>袋鼠保服</title>
+	<link rel="shortcut icon" href="../images/logo.ico" type="image/x-icon" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/myCSS/main.css?v=1.0.6">
+	<link rel="stylesheet" type="text/css" href="../css/myCSS/unlock.css">
+	<script src="../js/myJS/load.js?v=1.0.6?" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/externalJS/Introduce_jquery-1.11.0.min.js?" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="../js/externalJS/cookie.js?" charset="utf-8"></script>
+	<script src="../js/myJS/unlock.js?" type="text/javascript" charset="utf-8"></script>
+	<script> 
+		var v = '1.0.6';
+		var url_nums=['../css/myCSS/index.css','../css/myCSS/register.css','../js/myJS/config.js','../js/myJS/register.js']
+			Load(url_nums)
+	</script>
+	
+</head>
+<body>
+<div class="loadings" style="position: fixed;left: 0;top: 0;width: 100%;height: 100%;background: #fff;z-index: 99999;">
+	<img src="../images/loding.png" alt="" style="position:absolute;top:50%;left:50%;width:50px;height:50px;margin-left: -25px;margin-top: -25px;display: none;"/>
+	<p style="position:absolute;top:50%;left:0;width:100%;height:50px;line-height:50px;text-align:center;margin-top: -25px;display: none;">内容加载中...</p>
+</div>
+<script type="text/javascript" charset="utf-8">
+	if(!supportCss3('transition')){
+		$('.loadings p').show()
+		$('.loadings img').hide()
+	}else{
+		$('.loadings p').hide()
+		$('.loadings img').show()
+	}
+</script>
+	<div id="register">
+		<div class="register_header">
+			<div class="register_header_nav w">
+				<div class="Merchant_platform_left l">
+					<div class="logo">
+						<img src="../images/logo.png" alt="">
+					</div>
+					<b></b>
+					<div class="Catalog">
+						<a class="Catalog_Modular active" href="javascript:;" class="active">商户平台</a>
+						<a class="Catalog_Modular" href="javascript:;">开发者中心</a>
+					</div>
+				</div>
+				<div class="Merchant_platform_right r">
+					<div class="SignIn SignIn1 SignIn_color l" style="display: none;">
+						<a class="SignIn_register" href="javascript:;" sid="1">登录</a>		
+						<a class="SignIn_register SignIn_a" href="javascript:;" sid="2">注册</a>		
+					</div>
+					<div class="SignIn SignIn_color l" style="display: none;">
+						<div class="messageNum messageNum1" href="javascript:;" style="display: none;">
+							<img src="../images/messageWhite.png" alt=""/>
+							<i style="display: none;">2</i>
+							<strong  style="display: none;"></strong>
+						</div>
+						<a class="email" href="javascript:;" style="cursor: text;"></a>
+						<em></em>
+						<a class="messageNum messageNum2" href="javascript:;">
+							退出
+						</a>
+						<div class="messageNum_conter" style="display: none;">
+							<p style="line-height: 4rem;">您的企业认证通过</p>
+							<div class="messageNum_conter_title">
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+								<p></p>
+							</div>
+							<div class="messageNum_conter_footer">
+								查看全部
+							</div>
+						</div>		
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="register_conter w">
+			<div class="register_conter_step">
+				<ul>
+					<li class="l">1.填写基本信息<span class="active"></span></li>
+					<li class="l">2.填写企业信息<span></span></li>
+					<li class="l">3.填写银行信息<span></span></li>
+					<li class="l" style="-webkit-flex: 1.1;-moz-flex: 1.1;-ms-flex: 1.1;flex: 1.1;">4.平台审核企业信息<span></span></li>
+					<li class="l" style="-webkit-flex: 1.5;-moz-flex: 1.5;-ms-flex: 1.5;flex: 1.5;">5.审核通过、完成企业认证<span></span></li>
+				</ul>
+			</div>
+			<!-- 填写基本信息 -->
+			<div class="information information1">
+				<div class="essential_information">
+					<h2>企业基本信息</h2>
+					<label class="lab enterpriseName"><span>企业名称</span><input class="MerchantPlatform" type="text" name="" value=""><b><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab companyAddress"><span>公司地址</span><input class="MerchantPlatform" type="text" name="" value=""><b><img src="../images/error.png" alt="">内容不能为空</b></label>
+				</div>
+				<div class="essential_information">
+					<h2>管理员信息</h2>
+					<div class="identity_type" sid="2">
+						<span>身份类型</span>
+						<label class="card" sid="1"><img src="../images/Unchecked.png" alt=""><b>公司法人</b></label>
+						<label class="card" sid="2"><img src="../images/Selected.png" alt=""><b>非公司法人</b></label>
+					</div>
+					<label class="lab fullName"><span>姓名&nbsp;&nbsp;</span><input class="MerchantPlatform" type="text" name="" value=""><b><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab contactNumber"><span>联系电话</span><input class="MerchantPlatform1" type="text" name="" value=""><b><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab idNumber"><span>身份证号</span><input class="MerchantPlatform2" type="text" name="" value=""><b><img src="../images/error.png" alt="">内容不能为空</b></label>
+				</div>
+				<div class="photo_information">
+					<div class="pic_identity Certificates">
+						<div id="fileSelect" class="pic_identity_noSample l">
+							<img class="pic picsid" img_url="" sid="0" src="" alt="">
+							<div class="mark" style="display: none"></div>
+							<img class="addto" src="../images/addto.png" alt="">
+							<span>上传手持身份证照</span>
+							<input type="file" id="fileElem" multiple name="" style="display: none;">
+							<!-- <input type="file" id="fileElem" multiple  name="" onchange="ShowFileName('fileElem')" style="display: none;"> -->
+						</div>
+						<div class="pic_identity_Sample l">
+							<img class="pic" src="../images/HandheldIDcard.jpg" alt="">
+							<div class="mark">
+								查看示例图
+							</div>
+						</div>
+					</div>
+					<div class="photo_agent Certificates">
+						<div id="fileSelect1" class="pic_identity_noSample l">
+							<img class="pic Certificatesid" src="" alt="">
+							<div class="mark" style="display: none"></div>
+							<img class="addto" src="../images/addto.png" alt="">
+							<span>上传代理人授权书</span>
+							<input type="file" id="fileElem1" multiple style="display: none;">
+						</div>
+						<div class="pic_identity_Sample l">
+							<img class="pic" src="../images/proxy.png" alt="">
+							<div class="mark">
+								查看示例图
+							</div>
+						</div>
+						<div class="pic_identity_Template l">
+							<img class="pic" src="../images/templet.png" alt="">
+							<div class="mark"></div>
+							<div class="Template">
+								<img src="../images/download.png" alt="">
+								<span>下载授权书模板</span>
+							</div>
+						</div>
+					</div>
+					<div class="Next_step">
+						<a href="javascript:;" class="NextStep active">下一步</a>
+						<a href="javascript:;" class="NextTime">先存着，下次继续</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- 填写企业信息 -->
+			<div class="information information2 company_information"  style="display: none;">
+				<div class="essential_information">
+					<h2>杭州智驾科技有限公司</h2>
+					
+					<div class="Enterprise lab">
+						<span>企业证件号</span>
+						<div class="number">
+							<a class="enterpriseNumber launch" href="javascript:;"><em>社会统一信用代码</em><b><img src="../images/open.png" alt=""></b></a>
+							<input class="em enterpriseDocuments determineEnterpriseInformation1" type="text" name="">
+							
+							<ul class="DocumentSelection" sid="1">
+								<li class="IDNumberSelection" sid="1">社会统一信用代码</li>
+								<li class="IDNumberSelection" sid="2">组织机构代码</li>
+							</ul>
+						</div>
+						<b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b>
+
+					</div>
+
+					<label class="lab" style="display: none;"><span>企业工商注册号</span><input class="businessRegistrationNumber determineEnterpriseInformation2" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab"><span>企业法定代表人</span><input class="legalRepresentative determineEnterpriseInformation3" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab"><span>法人身份证号码</span><input class="corporateIdentityCard determineEnterpriseInformation4" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+				</div>
+				<div class="photo_information">
+					<div class="pic_identity Certificates">
+						<div id="fileSelect2" class="pic_identity_noSample l">
+							<img class="pic BusinessLicense" src="" alt="">
+							<div class="mark" style="display: none"></div>
+							<img class="addto" src="../images/addto.png" alt="">
+							<span>上传营业执照</span>
+							<input type="file" id="fileElem2" multiple style="display: none;">
+						</div>
+					</div>
+					<div class="Next_step">
+						<a href="javascript:;" class="NextStep1 active">下一步</a>
+						<a href="javascript:;" class="NextTime1">先存着，下次继续</a>
+					</div>
+				</div>
+				
+			</div>
+
+			<!-- 填写企业银行信息 -->
+			<div class="information information3 companyBank_information" style="display: none">
+				<div class="essential_information">
+					<h2>企业银行信息</h2>
+					<label class="lab"><span>银行开户名</span><input class="accountName bankInformation" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab"><span>银行账号</span><input class="BankAccount bankInformation1" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab"><span>开户银行</span><input class="OpeningBank bankInformation" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab"><span>开户行所在地</span><input class="LocationOfTheBank bankInformation" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+					<label class="lab"><span>开户支行全称</span><input class="OpeningBranch bankInformation" type="text" name="" value=""><b class="numberPrompt"><img src="../images/error.png" alt="">内容不能为空</b></label>
+				</div>
+				<div class="Next_step">
+					<a href="javascript:;" class="NextStep2 active">下一步</a>
+					<a href="javascript:;" class="NextTime2">先存着，下次继续</a>
+				</div>
+			</div>
+
+			<!-- 平台审核企业信息 -->
+			<div class="information companyBank_information1" style="display: none">
+				<div class="essential_information">
+					<p>资料已提交，平台审核中...<span>（10s后自动跳转至首页）</span></p>
+					<div class="Next_step">
+						<a href="../index.html" class="active NextStep3">返回首页</a>
+					</div>
+				</div>
+			</div>
+			
+
+			<!-- 审核通过，完成企业认证 -->
+			<div class="information companyBank_information2" style="display: none">
+				<div class="essential_information">
+					<img src="../images/Success.png" alt="">
+					<p>企业认证成功...<span>（5s&nbsp;&nbsp;后自动进入商户平台）</span></p>
+					<div class="Next_step">
+						<a href="../Merchant_platform.html?stas=1" class="active stop_Timer">进入商户平台</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="information companyBank_information3" style="display: none">
+				<div class="essential_information">
+					<img src="../images/error.png" alt="">
+					<p>企业认证失败</span></p>
+					<div class="Next_step">
+						<a href="javascript:;" class="active Modify_data ">修改资料</a>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+	</div>
+	<div id="Sample_drawing" style="display: none">
+		<div class="Sample_drawing_conter">
+			<img class="identity" style="display: none;width: 30%;" src="../images/HandheldIDcard.jpg" alt="">
+			<img class="authorization" src="../images/proxy.png" alt="">
+			<a class="Close" href="javascript:;">x</a>
+		</div>
+	</div>
+	<div id="sign_In2"></div>
+	<script src="../js/externalJS/Introduce_rem.js?" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

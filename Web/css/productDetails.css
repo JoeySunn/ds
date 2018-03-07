@@ -1,0 +1,128 @@
+/********************修改的公共部分**********************/
+html,body{
+	background: #f2f2f2;
+	padding-bottom: 2.2rem;
+}
+/*************************end******************************/
+
+/********************************商品类型菜单*****************/
+.title{
+	text-align: center;
+    line-height: 3.67rem;
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 1px solid #f1f1f1;
+    background: #fff;
+}
+.title .fanhui{
+	left: 1rem;
+    top: 1rem;
+    width: 1.67rem;
+}
+/**************************end*************************/
+
+/**********************商品展示***********************/
+.shopping_menu{
+	width: 100%;
+	background: #fff;
+	/*height: 70%;*/
+	/*overflow-y: scroll;*/
+}
+
+.shopping_conter{
+	width: 100%;
+	border-bottom: 1px solid #F9F9F9;
+	padding: 1.42rem 0 1.42rem 1.5rem;
+}
+.shopping_left_conter{
+	width: 40%;
+}
+.shopping_left_conter img{
+	width: 100%;
+}
+.shopping_right_conter{
+	margin-left: 3%;
+	width: 57%;
+	height: 5.95rem;
+	font-size: 12px;
+	color: #000000;
+}
+.shopping_right_conter_title{
+	font-size: 14px;
+	color: #000000;
+    white-space: nowrap;
+    float: left;
+	margin-bottom: 5%;
+}
+.shopping_right_conter p{
+	margin: 5% 0;
+}
+.shopping_right_conter_pire{
+	font-size: 16px;
+	color: #FF4343;
+}
+.shopping_right_conter_pire span{
+	font-size: 12px;
+    color: #333333;
+    font-weight: normal;
+}
+.img_txt_details{
+	margin-top: 0.67rem;
+	background: #fff;
+}
+.details_nav{
+	width: 100%;
+    height: 3.83rem;
+    line-height: 3.83;
+    padding-left: 1.5rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+.details_nav_btn{
+	font-size: 14px;
+	color: #000000;
+}
+.development{
+    right: 1.5rem;
+    height: 0.83rem;
+    top: 1.5rem;
+}
+.development_rotate{
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); 	/* IE 9 */
+	-moz-transform:rotate(180deg); 	/* Firefox */
+	-webkit-transform:rotate(180deg); /* Safari 和 Chrome */
+	-o-transform:rotate(180deg); 	/* Opera */
+	transition:0.3s;
+}
+.development_norotate{
+	transform:rotate(0deg);
+	-ms-transform:rotate(0deg); 	/* IE 9 */
+	-moz-transform:rotate(0deg); 	/* Firefox */
+	-webkit-transform:rotate(0deg); /* Safari 和 Chrome */
+	-o-transform:rotate(0deg); 	/* Opera */
+	transition:0.3s;
+}
+.img_txt_details_conter{
+	width: 100%;
+}
+.img_txt_details_conter img{
+	width: 100%;
+}
+/****************************************end***************************************/
+
+/***************************************尾部**************************************/
+.footer{
+	bottom: 0;
+    left: 0;
+    text-align: center;
+    font-size: 10px;
+    color: #333333;
+    width: 100%;
+    padding-top: 0.5rem;
+    background: #fff;
+}
+.footer p{
+	margin-bottom: 0.5rem;
+}
+/****************************************end**************************************

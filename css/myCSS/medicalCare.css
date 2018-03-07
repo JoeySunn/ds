@@ -1,0 +1,248 @@
+
+#medicalCare .setting_a {
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 23.7%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    /*margin-left: -6.4rem;*/
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#Pet .setting_a{
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 23.7%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    /*margin-left: -6.4rem;*/
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#productMall_pdM .ProductModule .Product_conter{
+    background: #4A7EE4;
+    width: 84%;
+    float: left;
+}
+#productMall_pdM .ProductModule .Product_conter p span{
+    color: #fff;
+}
+#productMall_pdM .ProductModule .Product_conter ul{
+        padding-bottom: 3%;
+        float: left;
+}
+#productMall .NavigationBar .menu li{
+    color: #000;
+}
+#productMall_cted .Customized{
+    background: #FAFAFA;
+}
+#productMall_cted .Customized .Customized_pictxt{
+    width: 51.25rem;
+    height: 23.5rem;
+    .display: inline !important;
+    display: inline-block;
+    margin: 0 2%;
+    border-radius: 4px;
+    margin-top: 5.83rem;
+    overflow: hidden;
+}
+#productMall_cted .Customized .Customized_pictxt img {
+    width: 50%;
+    height: 100%;
+    border: 0;
+    display: block;
+    float: left;
+    cursor: pointer;
+}
+#productMall_cted .Customized .Customized_pictxt .Customized_pictxt_txt {
+    width: 37%;
+    float: left;
+    height: 16rem;
+    text-align: left;
+    background: #fff;
+    padding: 2rem 5% 5.5rem;
+    padding-left: 8%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    position: relative;
+}
+#productMall_cted .Customized .Customized_pictxt .Customized_pictxt_txt em{
+    display: block;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+}
+#productMall_cted .Customized .Customized_pictxt .Customized_pictxt_txt b{
+    display: block;
+    color: #FF4343;
+    font-size: 1.5rem;
+}
+#productMall_cted .Customized .Customized_pictxt .Customized_pictxt_txt .description_Details_titlink button{
+    background: #4A7EE4;
+    border: 1px solid #4A7EE4;
+    border-radius: 5px;
+    padding: 1rem 3rem;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+}
+#productMall_fot{
+    width: 100%;
+    float:left;
+}
+#productMall_pdM{
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+#productMall_pdM .ProductModule{
+    padding: 0;
+}
+#productMall_cted{
+    width: 100%;
+    float: left;
+}
+#productMall_pdM .ProductModule .Product_conter li{
+    width: 8.67rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #ffffff;
+    color: rgba(255,255,255,0.8);
+    border-radius: 100px;
+    font-size: 1.17rem;
+    display: inline-block;
+    margin-right: 1.33rem;
+    /*opacity: 0.5;*/
+    border: 1px solid rgb(255,255,255);
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 37px;
+    cursor: pointer;
+}
+#productMall_pdM .ProductModule .Product_conter .li{
+    background: #fff;
+    color: #000;
+    opacity: 1;
+    margin-bottom: 1rem;
+}
+#productMall_pdM .ProductModule .Product_conter p{
+    width: 98%;
+    float: left;
+    margin: 0 auto;
+    padding-top: 3%;
+    padding-bottom:2%;
+}
+#Pet .setting a {
+    display: block;
+    position: absolute;
+    bottom: 10rem;
+    left: 28%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -6.4rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+.Customized .title {
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 2.67rem;
+    font-size: 1.3rem;
+    opacity: .8;
+}
+.increment{
+	width: 100%;
+    background: #FFFFFF;
+}
+.increment p {
+    width: 100%;
+    text-align: center;
+    font-size: 2.26rem;
+    color: #000;
+    margin: 8rem 0;
+}
+.increment .increment_conter {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 14.17rem;
+}
+.increment_conter_conter {
+    width: 17.67rem;
+    display: inline-block;
+    margin: 0 5%;
+}
+.increment_conter_conter img {
+    width: 17.67rem;
+    height: 17.67rem;
+    border-radius: 100px;
+}
+.increment_conter_conter span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #000;
+    margin-top: 4rem;
+}
+.increment_conter_conter span b{
+	display: block;
+	font-size: 1.1rem;
+	margin-top: 1.33rem;
+    opacity: 0.8;
+}
+
+.paging{
+    text-align: center;
+    margin-top: 2rem;
+}
+.paging .prevPage{
+    background-color: rgba(0,0,0,0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#00FFFFFF,endcolorstr=#00FFFFFF);
+    border: 1px solid #b8b8bb;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer;
+    margin-right: 1%;
+}
+.paging .page{
+    width: 24px !important;
+    height: 24px !important;
+    text-align: center !important;
+    line-height: 24px !important;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #B8B8BB;
+    margin-right: 1%;
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+}
+.paging .nextPage{
+    background-color: rgba(0,0,0,0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#00FFFFFF,endcolorstr=#00FFFFFF);
+    border: 1px solid #b8b8bb;
+    height: 24px;
+    line-height: 24px;
+    cursor: pointer;
+}
+.paging .active {
+    background: #4A7EE4;
+    color: #fff;
+}

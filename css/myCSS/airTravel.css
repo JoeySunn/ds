@@ -1,0 +1,146 @@
+/*
+    
+    页面头部
+
+*/
+#airTravel .setting_a {        /*航旅背景图上去定制按钮*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 23.7%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    /*margin-left: -6.4rem;*/
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#Restaurant .setting_a {            /*餐饮背景图上去定制按钮*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 23.7%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    /*margin-left: -6.4rem;*/
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+#Baby .setting_a{            /*母婴背景图上去定制按钮*/
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    width: 12.8rem;
+    height: 3.33rem;
+    line-height: 3.33rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    margin-left: -6.4rem;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+}
+.Customized .title {        /*场景分页面中适用场景的文字说明*/
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin-top: 2.67rem;
+    font-size: 1.3rem;
+    opacity: .8;
+}
+.Customized{             /*航旅场景的场景方案处背景图*/
+	background: url(../../images/banner5_1.jpg) no-repeat left top;
+	background-size: 100% 100%;
+}
+.Customized_baby{           /*母婴场景的场景方案处背景图*/
+    background: url(../../images/banner8_1.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.Customized_Restaurant{      /*餐饮场景的场景方案处背景图*/
+    background: url(../../images/banner10_1.jpg) no-repeat left top;
+    background-size: 100% 100%;
+}
+.Customized .btn_p a{       /*场景分页面中场景切换按钮*/
+	margin: 0 1%;
+}
+.Customized .Customized_pictxt1{         /*场景分页面中选中场景示例显示*/
+	width: 58.25rem;
+	height: 23.5rem;
+	display: inline-block;
+    margin: 5.83rem 2% 0;
+}
+.Customized .Customized_pictxt1 img{
+	width: 50%;
+	height: 100%;
+	border: 0;
+    display: block;
+    float: left;
+}
+.Customized_baby .Customized_pictxt1 img{
+    width: 50%;
+}
+.Customized .Customized_pictxt1 .Customized_pictxt_txt{
+    width: 37%;
+	float: left;
+    height: 16rem;
+    text-align: left;
+    background: #fff;
+    padding: 3.75rem 5%;
+    padding-left: 8%;
+}
+.Customized_Restaurant .Customized_pictxt1 .Customized_pictxt_txt{
+    padding-right: 7%;
+    padding-left: 5%;
+}
+.Customized_baby .Customized_pictxt1 .Customized_pictxt_txt{
+    float: left;
+    height: 21.5rem;
+    text-align: left;
+    background: #fff;
+    padding: 1rem 5%;
+    padding-left: 8%;
+    /*padding-right: 16%;*/
+}
+.Customized .Customized_pictxt1 .Customized_pictxt_txt p{
+	    margin-bottom: 3.75rem;
+    font-size: 1.17rem;
+    color: #000000;
+    opacity: .8;
+    padding-left: 1.42rem;
+}
+.Customized .Customized_pictxt1 .Customized_pictxt_txt span{
+	display: block;
+	margin-bottom: 1.33rem;
+}
+.Customized .Customized_pictxt1 .Customized_pictxt_txt span i{
+    font-size: 14px;
+    color: #000;
+    opacity: .8;
+        line-height: 25px;
+}
+.Customized .Customized_pictxt1 .Customized_pictxt_txt span b{
+    display: inline-block;
+    border-radius: 100px;
+    width: 0.67rem;
+    height: 0.67rem;
+    background: #000000;
+    margin-right: 0.75rem;
+    margin-top: .5rem;
+}
+.Customized .Customized_pictxt1 .Customized_pictxt_txt em {
+    font-size: 1.33rem;
+}
+.Restaurant_Customized_bck .Customized_pictxt_txt{
+    padding-right: 0 !important;
+}
+.Restaurant_Customized_bck .Customized_pictxt1 .Customized_pictxt_txt{
+    width: 45% !important;
+}
